@@ -1,3 +1,61 @@
-h1{
-    background: red;
+.header-home{
+    position: absolute;
+    width: 1152px;
+    height: 83px;
+    left: 0px;
+    top: 0px;
+    
+
+    background: black;
+}
+.logo-matea-header{
+    position: absolute;
+width: 37px;
+height: 33px;
+left: 66px;
+top: 25px;
+background: url(https://avatars2.githubusercontent.com/u/59933886?s=200&v=4)
+}
+.header-home-signin{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 957px;
+    top: 28px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.header-home-signup{
+    position: absolute;
+    width: 138px;
+    height: 30px;
+    left: 789px;
+    top: 28px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.header-home__h4{
+    position: absolute;
+width: 183px;
+height: 64px;
+left: 114px;
+top: 0px;
+
+font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 40px;
+color: white;
+background: #000000;
 }
