@@ -15,7 +15,8 @@ width: 37px;
 height: 33px;
 left: 66px;
 top: 25px;
-background: url(C:\Users\user\Desktop\LogoSoloBlancoFondoTransparente1.png)
+background-image: image()
+
 }
 .header-home-signin{
     position: absolute;
@@ -60,6 +61,7 @@ line-height: 40px;
 color: white;
 background: #000000;
 }
+ /*********End of Header*********/
 /******** Footer ********/
 
 .footer-home{
@@ -81,8 +83,8 @@ background: #000000;
     font-weight: normal;
     font-size: 20px;
     line-height: 24px;
-    color: red;
-    background-color: salmon;
+    color: rgb(255, 255, 255);
+
 
 }
 .footer-home-p2{
@@ -96,4 +98,87 @@ background: #000000;
     font-weight: normal;
     font-size: 20px;
     line-height: 24px;
+}
+/*********** End of Footer ***********/
+
+
+
+.main{
+    width: 50%;
+    margin: 50px auto;
+    align-items: center;
+    text-align: center;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    position: absolute;
+	width: 738px;
+	height: 57px;
+
+	background: #FFFFFF;
+	/* Dark 25% */
+
+	border: 1px solid rgba(31, 32, 65, 0.25);
+	box-sizing: border-box;
+	border-radius: 33px;
+}
+
+.titulo{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 61px;
+	color: white;
+}
+
+body{
+	/*background-color: black;*/
+	position: absolute;
+	width: 1152px;
+	height: 529px;
+
+	background: black;
+	  /* Location of the image */
+
+
+}
+
+.bg-image{
+	position: absolute;
+	width: 1160px;
+	height: 529px;
+	left: -7px;
+	top: 82px;
+	background-image: url();
+	/* Background image is centered vertically and horizontally at all times */
+	background-position: center center;
+	/* Background image doesn't tile */
+	background-repeat: no-repeat;
+	/* Background image is fixed in the viewport so that it doesn't move when 
+	 the content's height is greater than the image's height */
+	background-attachment: fixed;
+	/* This is what makes the background image rescale based
+	 on the container's size */
+	background-size: cover;
+	/* Set a background color that will be displayed
+	 while the background image is loading */
+	background-color: black;
+
+}
+
+.boton_musica{
+	margin: 70px auto;
+	width: 348px;
+	height: 57px;
+
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-size: 26px;
+	color: white;
+
+	background: #1ED760;
+	border-radius: 42px;
+
 }
