@@ -111,7 +111,7 @@ body{
 	height: 529px;
 	left: -7px;
 	top: 82px;
-	background-image: image();
+    background-image: url("latinfestival.jpg");
 	  /* Background image is centered vertically and horizontally at all times */
 	background-position: center center;
 	  /* Background image doesn't tile */
