@@ -6,16 +6,14 @@
     left: 0px;
     top: 0px;
     
-
     background: black;
 }
 .logo-matea-header{
     position: absolute;
-width: 37px;
-height: 33px;
-left: 66px;
-top: 25px;
-
+    width: 37px;
+    height: 33px;
+    left: 66px;
+    top: 25px;
 
 }
 .header-home-signin{
@@ -24,7 +22,6 @@ top: 25px;
     height: 30px;
     left: 957px;
     top: 28px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -48,20 +45,127 @@ top: 25px;
 }
 .header-home__h4{
     position: absolute;
-width: 183px;
-height: 64px;
-left: 114px;
-top: 0px;
+    width: 183px;
+    height: 64px;
+    left: 114px;
+    top: 0px;
 
-font-family: Righteous;
-font-style: normal;
-font-weight: normal;
-font-size: 32px;
-line-height: 40px;
-color: white;
-background: #000000;
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    color: white;
+    background: #000000;
 }
- /*********End of Header*********/
+/*********End of Header*********/
+
+
+
+/**** Aqui el contenido del home****/
+.main {
+
+    width: 100%;
+    margin: 50px auto;
+    align-items: center;
+    text-align: center;
+}
+/*.form-control {
+    padding-left: 2.375rem;
+    position: absolute;
+	width: 738px;
+    height: 57px;
+    top: 297px;
+
+	background: #FFFFFF;
+	/* Dark 25% 
+
+	border: 1px solid rgba(31, 32, 65, 0.25);
+	box-sizing: border-box;
+    border-radius: 33px; 
+
+}*/
+.has-search .form-control{
+    position: absolute;
+    width: 738px;
+    height: 57px;
+    left: 206px;
+    top: 292px;
+    
+    
+
+	background: #FFFFFF;
+	/* Dark 25% */
+
+	border: 1px solid rgba(31, 32, 65, 0.25);
+	box-sizing: border-box;
+	border-radius: 33px;
+}
+
+.text__titulo{
+	position: absolute;
+    width: 797px;
+    height: 30px;
+    left: 177px;
+    top: 83px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 61px;
+
+    color: #FFFFFF;
+}
+
+.contenedor__home{
+	/*background-color: black;*/
+	position: absolute;
+	width: 1152px;
+	height: 529px;
+	left: 0px;
+    top: 83px;
+
+	  /* Location of the image */
+
+    background-image: url(https://cdn.discordapp.com/attachments/704436471842603129/714939799118807193/Latin_Festival_-_2017-06-09_-_Angelito_Jusay_8_1.jpg);
+
+    position: absolute;
+    width: 1160px;
+    height: 529px;
+    left: -7px;
+    top: 82px;
+
+    
+        /*Background image is centered vertically and horizontally at all times 
+  */
+    background-position: center center;
+        /*Background image doesn't tile*/ 
+    background-repeat: no-repeat;
+        /*Background image is fixed in the viewport so that it doesn't move when 
+          the content's height is greater than the image's height */
+    background-attachment: fixed;
+        /*This is what makes the background image rescale based
+          on the container's size */
+    background-size: cover;
+        
+
+}
+
+.boton_musica{
+	margin: 70px auto;
+	width: 348px;
+	height: 57px;
+
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-size: 26px;
+	color: white;
+
+	background: #1ED760;
+	border-radius: 42px;
+
+}
 /******** Footer ********/
 
 .footer-home{
@@ -84,9 +188,6 @@ background: #000000;
     font-size: 20px;
     line-height: 24px;
     color: rgb(255, 255, 255);
-
-
-
 }
 .footer-home-p2{
     position: absolute;
@@ -101,108 +202,3 @@ background: #000000;
     line-height: 24px;
 }
 /*********** End of Footer ***********/
-
-
-
-
-
-/* Aqui el contenido del home*/
-.main {
-
-    width: 50%;
-    margin: 50px auto;
-    align-items: center;
-    text-align: center;
-}
-
-.has-search .form-control {
-    padding-left: 2.375rem;
-    position: absolute;
-	width: 738px;
-	height: 57px;
-
-	background: #FFFFFF;
-	/* Dark 25% */
-
-	border: 1px solid rgba(31, 32, 65, 0.25);
-	box-sizing: border-box;
-	border-radius: 33px;
-}
-
-.text__titulo{
-	position: absolute;
-width: 797px;
-height: 30px;
-left: 177px;
-top: 183px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 800;
-font-size: 50px;
-line-height: 61px;
-
-color: #FFFFFF;
-}
-
-.contenedor__home{
-	/*background-color: black;*/
-	position: absolute;
-	width: 1152px;
-	height: 529px;
-	left: 0px;
-top: 83px;
-
-	background: black;
-	  /* Location of the image */
-
-
-}
-
-.bg-image{
-	position: absolute;
-	width: 1160px;
-	height: 529px;
-	left: -7px;
-	top: 82px;
-<<<<<<< HEAD
-    background-image: url(css/la);
-    /* Background image is centered vertically and horizontally at all times */
-=======
-
-	background-image: url(/c:/Users/user/Desktop/Proyecto-Final/latinfestival.jpg);
-	/* Background image is centered vertically and horizontally at all times */
-
-    background-image: url("latinfestival.jpg");
-	  /* Background image is centered vertically and horizontally at all times */
-
->>>>>>> 23d79b46fe4d6c3b6fbfdd137336533cb338bb03
-	background-position: center center;
-	/* Background image doesn't tile */
-	background-repeat: no-repeat;
-	/* Background image is fixed in the viewport so that it doesn't move when 
-	 the content's height is greater than the image's height */
-	background-attachment: fixed;
-	/* This is what makes the background image rescale based
-	 on the container's size */
-	background-size: cover;
-	/* Set a background color that will be displayed
-	 while the background image is loading */
-	background-color: black;
-
-}
-
-.boton_musica{
-	margin: 70px auto;
-	width: 348px;
-	height: 57px;
-
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
-	font-size: 26px;
-	color: white;
-
-	background: #1ED760;
-	border-radius: 42px;
-
-}
