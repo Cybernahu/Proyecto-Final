@@ -15,7 +15,7 @@ width: 37px;
 height: 33px;
 left: 66px;
 top: 25px;
-background-image: image()
+background-image: url(C:\Users\user\Desktop\LogoSoloBlancoFondoTransparente1.png)
 
 }
 .header-home-signin{
@@ -86,6 +86,7 @@ background: #000000;
     color: rgb(255, 255, 255);
 
 
+
 }
 .footer-home-p2{
     position: absolute;
@@ -103,7 +104,11 @@ background: #000000;
 
 
 
-.main{
+
+
+/* Aqui el contenido del home*/
+.main {
+
     width: 50%;
     margin: 50px auto;
     align-items: center;
@@ -151,7 +156,7 @@ body{
 	height: 529px;
 	left: -7px;
 	top: 82px;
-	background-image: url();
+	background-image: url(/c:/Users/user/Desktop/Proyecto-Final/latinfestival.jpg);
 	/* Background image is centered vertically and horizontally at all times */
 	background-position: center center;
 	/* Background image doesn't tile */
