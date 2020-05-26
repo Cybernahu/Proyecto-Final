@@ -1,3 +1,4 @@
+/********* Header *********/
 .header-home{
     position: absolute;
     width: 1152px;
@@ -14,7 +15,8 @@ width: 37px;
 height: 33px;
 left: 66px;
 top: 25px;
-background: url(https://avatars2.githubusercontent.com/u/59933886?s=200&v=4)
+
+
 }
 .header-home-signin{
     position: absolute;
@@ -59,11 +61,54 @@ line-height: 40px;
 color: white;
 background: #000000;
 }
+ /*********End of Header*********/
+/******** Footer ********/
+
+.footer-home{
+    position: absolute;
+    width: 1152px;
+    height: 88px;
+    left: 0px;
+    top: 612px;
+    background: #000000;
+}
+.footer-home-p1{
+    position: absolute;
+    width: 242px;
+    height: 30px;
+    left: 66px;
+    top: 641px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+
+
+
+}
+.footer-home-p2{
+    position: absolute;
+    width: 138px;
+    height: 30px;
+    left: 859px;
+    top: 641px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+}
+/*********** End of Footer ***********/
+
+
 
 
 
 /* Aqui el contenido del home*/
 .main {
+
     width: 50%;
     margin: 50px auto;
     align-items: center;
@@ -120,19 +165,29 @@ top: 83px;
 	height: 529px;
 	left: -7px;
 	top: 82px;
+<<<<<<< HEAD
     background-image: url(css/la);
     /* Background image is centered vertically and horizontally at all times */
+=======
+
+	background-image: url(/c:/Users/user/Desktop/Proyecto-Final/latinfestival.jpg);
+	/* Background image is centered vertically and horizontally at all times */
+
+    background-image: url("latinfestival.jpg");
+	  /* Background image is centered vertically and horizontally at all times */
+
+>>>>>>> 23d79b46fe4d6c3b6fbfdd137336533cb338bb03
 	background-position: center center;
-	  /* Background image doesn't tile */
+	/* Background image doesn't tile */
 	background-repeat: no-repeat;
-	  /* Background image is fixed in the viewport so that it doesn't move when 
-	     the content's height is greater than the image's height */
+	/* Background image is fixed in the viewport so that it doesn't move when 
+	 the content's height is greater than the image's height */
 	background-attachment: fixed;
-	  /* This is what makes the background image rescale based
-	     on the container's size */
+	/* This is what makes the background image rescale based
+	 on the container's size */
 	background-size: cover;
-	  /* Set a background color that will be displayed
-	     while the background image is loading */
+	/* Set a background color that will be displayed
+	 while the background image is loading */
 	background-color: black;
 
 }
@@ -149,4 +204,5 @@ top: 83px;
 
 	background: #1ED760;
 	border-radius: 42px;
+
 }
