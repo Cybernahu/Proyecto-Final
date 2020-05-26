@@ -129,20 +129,29 @@ background: #000000;
 	border-radius: 33px;
 }
 
-.titulo{
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
-	font-weight: 800;
-	font-size: 36px;
-	line-height: 61px;
-	color: white;
+.text__titulo{
+	position: absolute;
+width: 797px;
+height: 30px;
+left: 177px;
+top: 183px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 61px;
+
+color: #FFFFFF;
 }
 
-body{
+.contenedor__home{
 	/*background-color: black;*/
 	position: absolute;
 	width: 1152px;
 	height: 529px;
+	left: 0px;
+top: 83px;
 
 	background: black;
 	  /* Location of the image */
@@ -156,6 +165,10 @@ body{
 	height: 529px;
 	left: -7px;
 	top: 82px;
+<<<<<<< HEAD
+    background-image: url(css/la);
+    /* Background image is centered vertically and horizontally at all times */
+=======
 
 	background-image: url(/c:/Users/user/Desktop/Proyecto-Final/latinfestival.jpg);
 	/* Background image is centered vertically and horizontally at all times */
@@ -163,6 +176,7 @@ body{
     background-image: url("latinfestival.jpg");
 	  /* Background image is centered vertically and horizontally at all times */
 
+>>>>>>> 23d79b46fe4d6c3b6fbfdd137336533cb338bb03
 	background-position: center center;
 	/* Background image doesn't tile */
 	background-repeat: no-repeat;
