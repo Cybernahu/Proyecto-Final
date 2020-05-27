@@ -202,4 +202,53 @@
     font-size: 20px;
     line-height: 24px;
 }
-/*********** End of Footer ***********/
+/*********** End of Footer home ***********/
+/********* start of registration page **********/
+.register-tittle{
+
+width: 121px;
+height: 64px;
+margin: 0px auto;
+
+font-family: 'Righteous', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 40px;
+color: white;
+}
+.col-md-12 {
+    width: auto;
+    margin: 0rem;
+    text-align: center;
+
+}
+.col{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.input-register{
+    text-align: center;
+    width: 350.67px;
+    height: 57px;
+    border-radius: 33px;
+    border: 1px solid rgba(31, 32, 65, 0.25);;
+
+}
+.input-register::placeholder{
+text-align: start;
+padding-left: 5px;
+}
+.background-register{
+    background-color: black;
+}
+.register-tittle-form{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+}
