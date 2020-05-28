@@ -1,20 +1,31 @@
+<<<<<<< HEAD
+=======
+
+/********* Header *********/
+>>>>>>> 8fedef3872530f3f3e0c5259e39719b92f0a347d
 .header-home{
-    position: absolute;
-    width: 1152px;
+    width: 100%;
     height: 83px;
     left: 0px;
     top: 0px;
     
-
     background: black;
 }
 .logo-matea-header{
     position: absolute;
+<<<<<<< HEAD
 width: 37px;
 height: 33px;
 left: 66px;
 top: 25px;
 background: url(https://avatars2.githubusercontent.com/u/59933886?s=200&v=4)
+=======
+    width: 37px;
+    height: 33px;
+    left: 66px;
+    top: 25px;
+
+>>>>>>> 8fedef3872530f3f3e0c5259e39719b92f0a347d
 }
 .header-home-signin{
     position: absolute;
@@ -22,7 +33,6 @@ background: url(https://avatars2.githubusercontent.com/u/59933886?s=200&v=4)
     height: 30px;
     left: 957px;
     top: 28px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -46,6 +56,7 @@ background: url(https://avatars2.githubusercontent.com/u/59933886?s=200&v=4)
 }
 .header-home__h4{
     position: absolute;
+<<<<<<< HEAD
 width: 183px;
 height: 64px;
 left: 114px;
@@ -66,16 +77,56 @@ background: #000000;
 
 .main {
     width: 50%;
+=======
+    width: 183px;
+    height: 64px;
+    left: 114px;
+    top: 0px;
+
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    color: white;
+    background: #000000;
+}
+/*********End of Header*********/
+
+
+
+/**** Aqui el contenido del home****/
+.main {
+
+    width: 100%;
+>>>>>>> 8fedef3872530f3f3e0c5259e39719b92f0a347d
     margin: 50px auto;
     align-items: center;
     text-align: center;
 }
-
-.has-search .form-control {
+/*.form-control {
     padding-left: 2.375rem;
     position: absolute;
 	width: 738px;
-	height: 57px;
+    height: 57px;
+    top: 297px;
+
+	background: #FFFFFF;
+	/* Dark 25% 
+
+	border: 1px solid rgba(31, 32, 65, 0.25);
+	box-sizing: border-box;
+    border-radius: 33px; 
+
+}*/
+.has-search .form-control{
+    position: absolute;
+    width: 738px;
+    height: 57px;
+    left: 206px;
+    top: 202px;
+    
+    
 
 	background: #FFFFFF;
 	/* Dark 25% */
@@ -87,34 +138,39 @@ background: #000000;
 
 .text__titulo{
 	position: absolute;
-width: 797px;
-height: 30px;
-left: 177px;
-top: 183px;
+    width: 797px;
+    height: 30px;
+    left: 177px;
+    top: 83px;
 
-font-family: Montserrat;
-font-style: normal;
-font-weight: 800;
-font-size: 50px;
-line-height: 61px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 61px;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .contenedor__home{
 	/*background-color: black;*/
 	position: absolute;
-	width: 1152px;
+	width: 100%;
 	height: 529px;
 	left: 0px;
-top: 83px;
+    top: 83px;
 
-	background: black;
 	  /* Location of the image */
 
+    background-image: url(https://cdn.discordapp.com/attachments/704436471842603129/714939799118807193/Latin_Festival_-_2017-06-09_-_Angelito_Jusay_8_1.jpg);
 
-}
+    position: absolute;
+    width: 100%;
+    height: 529px;
+    left: -7px;
+    top: 82px;
 
+<<<<<<< HEAD
 .bg-image{
 	position: absolute;
 	width: 1160px;
@@ -135,14 +191,30 @@ top: 83px;
 	  /* Set a background color that will be displayed
 	     while the background image is loading */
 	background-color: black;
+=======
+    
+        /*Background image is centered vertically and horizontally at all times 
+  */
+    background-position: center center;
+        /*Background image doesn't tile*/ 
+    background-repeat: no-repeat;
+        /*Background image is fixed in the viewport so that it doesn't move when 
+          the content's height is greater than the image's height */
+    background-attachment: fixed;
+        /*This is what makes the background image rescale based
+          on the container's size */
+    background-size: cover;
+        
+>>>>>>> 8fedef3872530f3f3e0c5259e39719b92f0a347d
 
 }
 
 .boton_musica{
-	margin: 70px auto;
-	width: 348px;
-	height: 57px;
-
+    
+    width: 348px;
+    height: 57px;
+    left: 401px;
+    top: 403px;
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-size: 26px;
@@ -152,4 +224,93 @@ top: 83px;
 	border-radius: 42px;
 }
 
+<<<<<<< HEAD
 /*******login******/
+=======
+}
+/******** Footer ********/
+
+.footer-home{
+    position: absolute;
+    width: 100%;
+    height: 88px;
+    left: 0px;
+    top: 612px;
+    background: #000000;
+}
+.footer-home-p1{
+    position: absolute;
+    width: 242px;
+    height: 30px;
+    left: 66px;
+    top: 3px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+}
+.footer-home-p2{
+    position: absolute;
+    width: 138px;
+    height: 30px;
+    left: 859px;
+    top: 641px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+}
+/*********** End of Footer home ***********/
+/********* start of registration page **********/
+.register-tittle{
+
+width: 121px;
+height: 64px;
+margin: 0px auto;
+
+font-family: 'Righteous', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 40px;
+color: white;
+}
+.col-md-12 {
+    width: auto;
+    margin: 0rem;
+    text-align: center;
+
+}
+.col{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.input-register{
+    text-align: center;
+    width: 350.67px;
+    height: 57px;
+    border-radius: 33px;
+    border: 1px solid rgba(31, 32, 65, 0.25);;
+
+}
+.input-register::placeholder{
+text-align: start;
+padding-left: 5px;
+}
+.background-register{
+    background-color: black;
+}
+.register-tittle-form{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+}
+>>>>>>> 8fedef3872530f3f3e0c5259e39719b92f0a347d
