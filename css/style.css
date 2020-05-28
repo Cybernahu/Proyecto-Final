@@ -70,21 +70,7 @@ background: url(https://avatars2.githubusercontent.com/u/59933886?s=200&v=4)
     align-items: center;
     text-align: center;
 }
-/*.form-control {
-    padding-left: 2.375rem;
-    position: absolute;
-	width: 738px;
-    height: 57px;
-    top: 297px;
 
-	background: #FFFFFF;
-	/* Dark 25% 
-
-	border: 1px solid rgba(31, 32, 65, 0.25);
-	box-sizing: border-box;
-    border-radius: 33px; 
-
-}*/
 .has-search .form-control{
     position: absolute;
     width: 738px;
@@ -143,7 +129,7 @@ background: url(https://avatars2.githubusercontent.com/u/59933886?s=200&v=4)
 	height: 529px;
 	left: -7px;
 	top: 82px;
-    background-image: url(css/la);
+    background-image: url(/imágenes/Latin_Festival_-_2017-06-09_-_Angelito_Jusay_1.png);
     /* Background image is centered vertically and horizontally at all times */
 	background-position: center center;
 	  /* Background image doesn't tile */
@@ -156,7 +142,7 @@ background: url(https://avatars2.githubusercontent.com/u/59933886?s=200&v=4)
 	background-size: cover;
 	  /* Set a background color that will be displayed
 	     while the background image is loading */
-	background-color: black;
+
 
     
         /*Background image is centered vertically and horizontally at all times 
@@ -251,6 +237,7 @@ color: white;
     background-color: white;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 .input-register{
     text-align: center;
