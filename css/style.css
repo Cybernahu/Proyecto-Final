@@ -253,7 +253,9 @@ margin: 0px auto 36px;
     line-height: 22px;
     color: black;
 }
-/******** Start of Login ********/
+/******* End of Registration page *******/
+
+/******** Start of Login page ********/
 .login-tittle{
     font-family: 'montserrat';
     
@@ -268,7 +270,7 @@ margin: 0px auto 36px;
 
     color: #000000;
 }
-.login-bottom{
+.login-button{
     background: #1ED760;
     border-radius: 42px;
 }
@@ -278,6 +280,15 @@ margin: 0px auto 36px;
 .margin-left{
     margin-right: 293.83px;
 }
-.login-checkbox{
+.checkbox{
+    width: 19.17px;
+    height: 19.17px;
     margin-top: 5px;
+}
+
+/********** End of Login page**********/
+/************** Start Register-Footer ************/
+
+.register-footer{
+margin: 0px;
 }
