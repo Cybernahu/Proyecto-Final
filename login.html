@@ -9,6 +9,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <!-- Montserrat font -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <style>
     .fakeimg {
     height: 200px;
@@ -33,29 +34,40 @@
 <div class="container" style="margin-top:30px">
     <div class="row">
     
-    <div class="col-sm-8">
+    <div class="col-sm-12 col center">
         <p class="titulo">Para continuar, inicia sesión</p>
+        </div>
+        </div>
         
-        <div class="form-group">
-        <label for="exampleDropdownFormEmail2"></label>
-            <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="Correo electrónico o nombre de usuario">
+        <div class="row">
+            <div class="col-sm-8 col center">
+                <div class="form-group">
+                    <label for="exampleDropdownFormEmail2"></label>
+                    <input type="email" class=" input-register" id="exampleDropdownFormEmail2" placeholder="Correo electrónico o nombre de usuario">
+                </div>
+            </div>
         </div>
-        <div class="form-group">
-            <label for="exampleDropdownFormPassword2"></label>
-            <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Contraseña">
+        <div class="row">
+            <div class="col-sm-12 col center">
+                <div class="form-group">
+                    <label for="exampleDropdownFormPassword2"></label>
+                    <input type="password" class=" input-register" id="exampleDropdownFormPassword2" placeholder="Contraseña">
+                </div>
+            </div>
         </div>
-        <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+        <div class="form-check inline-block margin-left center">
+            <input type="checkbox" class="form-check-input margin-left" id="dropdownCheck2">
             <label class="form-check-label" for="dropdownCheck2">
-            Recuerdame
+                Recuerdame
             </label>
         </div>
-        <button class="btn btn-success">Iniciar sesión </button>
+        <button class="btn btn-success login-button">Iniciar sesión </button>
         </form>
-    </div>
-    </div>
+        </div>
+    
+    
 </div>
-
+</div>
 <div class="jumbotron text-center" style="margin-bottom:0">
     <p>Footer</p>
 </div>

@@ -224,13 +224,14 @@ color: white;
     background-color: white;
     justify-content: center;
     align-items: center;
+    margin-bottom: 15px;
 }
 .input-register{
     text-align: center;
-    width: 350.67px;
+    width: 527px;
     height: 57px;
     border-radius: 33px;
-    border: 1px solid rgba(31, 32, 65, 0.25);;
+    border: 1px solid rgba(31, 32, 65, 0.25);
 
 }
 .input-register::placeholder{
@@ -238,10 +239,13 @@ text-align: start;
 padding-left: 5px;
 }
 .background-register{
-    background-color: black;
+    background-color: white;
 }
 .register-tittle-form{
+    width: 342px;
+    height: 16px;
 
+margin: 0px auto 36px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
@@ -252,4 +256,28 @@ padding-left: 5px;
 /******** Start of Login ********/
 .login-tittle{
     font-family: 'montserrat';
+    
+}
+.titulo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+
+
+    color: #000000;
+}
+.login-bottom{
+    background: #1ED760;
+    border-radius: 42px;
+}
+.inline-block{
+    display: inline-block;
+}
+.margin-left{
+    margin-right: 293.83px;
+}
+.login-checkbox{
+    margin-top: 5px;
 }
