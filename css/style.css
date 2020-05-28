@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-=======
 
 /********* Header *********/
->>>>>>> 8fedef3872530f3f3e0c5259e39719b92f0a347d
 .header-home{
     width: 100%;
     height: 83px;
@@ -13,19 +10,11 @@
 }
 .logo-matea-header{
     position: absolute;
-<<<<<<< HEAD
 width: 37px;
 height: 33px;
 left: 66px;
 top: 25px;
 background: url(https://avatars2.githubusercontent.com/u/59933886?s=200&v=4)
-=======
-    width: 37px;
-    height: 33px;
-    left: 66px;
-    top: 25px;
-
->>>>>>> 8fedef3872530f3f3e0c5259e39719b92f0a347d
 }
 .header-home-signin{
     position: absolute;
@@ -56,28 +45,6 @@ background: url(https://avatars2.githubusercontent.com/u/59933886?s=200&v=4)
 }
 .header-home__h4{
     position: absolute;
-<<<<<<< HEAD
-width: 183px;
-height: 64px;
-left: 114px;
-top: 0px;
-
-font-family: Righteous;
-font-style: normal;
-font-weight: normal;
-font-size: 32px;
-line-height: 40px;
-color: white;
-background: #000000;
-}
-
-
-
-/* Aqui el contenido del home*/
-
-.main {
-    width: 50%;
-=======
     width: 183px;
     height: 64px;
     left: 114px;
@@ -99,7 +66,6 @@ background: #000000;
 .main {
 
     width: 100%;
->>>>>>> 8fedef3872530f3f3e0c5259e39719b92f0a347d
     margin: 50px auto;
     align-items: center;
     text-align: center;
@@ -170,6 +136,10 @@ background: #000000;
     left: -7px;
     top: 82px;
 
+<<<<<<< HEAD
+=======
+}
+>>>>>>> a0eecb3180054e22641fcc27364ed56dfee567ad
 .bg-image{
 	position: absolute;
 	width: 1160px;
@@ -190,6 +160,24 @@ background: #000000;
 	  /* Set a background color that will be displayed
 	     while the background image is loading */
 	background-color: black;
+<<<<<<< HEAD
+=======
+
+    
+        /*Background image is centered vertically and horizontally at all times 
+  */
+    background-position: center center;
+        /*Background image doesn't tile*/ 
+    background-repeat: no-repeat;
+        /*Background image is fixed in the viewport so that it doesn't move when 
+          the content's height is greater than the image's height */
+    background-attachment: fixed;
+        /*This is what makes the background image rescale based
+          on the container's size */
+    background-size: cover;
+        
+
+>>>>>>> a0eecb3180054e22641fcc27364ed56dfee567ad
 
 }
 
@@ -208,10 +196,7 @@ background: #000000;
 	border-radius: 42px;
 }
 
-<<<<<<< HEAD
-/*******login******/
-=======
-}
+
 /******** Footer ********/
 
 .footer-home{
@@ -297,4 +282,4 @@ padding-left: 5px;
     line-height: 22px;
     color: black;
 }
->>>>>>> 8fedef3872530f3f3e0c5259e39719b92f0a347d
+/******** Start of Login ********/
