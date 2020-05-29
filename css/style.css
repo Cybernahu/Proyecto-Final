@@ -1,84 +1,20 @@
-
-/********* Header *********/
-.header-home{
-    width: 100%;
-    height: 83px;
-    left: 0px;
-    top: 0px;
-    
-    background: black;
-}
-.logo-matea-header{
-    position: absolute;
-width: 37px;
-height: 33px;
-left: 66px;
-top: 25px;
-background: url(https://avatars2.githubusercontent.com/u/59933886?s=200&v=4)
-}
-.header-home-signin{
-    position: absolute;
-    width: 150px;
-    height: 30px;
-    left: 957px;
-    top: 28px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 24px;
-    color: #ffffff;
-}
-.header-home-signup{
-    position: absolute;
-    width: 138px;
-    height: 30px;
-    left: 789px;
-    top: 28px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    color: #ffffff;
-}
-.header-home__h4{
-    position: absolute;
-    width: 183px;
-    height: 64px;
-    left: 114px;
-    top: 0px;
-
-    font-family: 'Righteous';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 40px;
-    color: white;
-    background: #000000;
-}
-/*********End of Header*********/
-
-
-
-/**** Aqui el contenido del home****/
 .main {
-
-    width: 100%;
+    width: 50%;
     margin: 50px auto;
     align-items: center;
     text-align: center;
 }
 
-.has-search .form-control{
-    position: absolute;
-    width: 738px;
-    height: 57px;
-    left: 206px;
-    top: 202px;
+.has-search .form-control {
+    padding-left: 2.375rem;
+    /*position: absolute;
     
-    
+	height: 57px;*/
+
+	margin: 70px auto;
+	width: 100%;
+	max-width: 738px;
+	height: 57px;
 
 	background: #FFFFFF;
 	/* Dark 25% */
@@ -88,72 +24,49 @@ background: url(https://avatars2.githubusercontent.com/u/59933886?s=200&v=4)
 	border-radius: 33px;
 }
 
-.text__titulo{
-	position: absolute;
-    width: 797px;
-    height: 30px;
-    left: 177px;
-    top: 83px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 50px;
-    line-height: 61px;
-
-    color: #FFFFFF;
+.titulo{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 61px;
+	color: white;
 }
 
-.contenedor__home{
-	/*background-color: black;*/
-	position: absolute;
-	width: 100%;
-	height: 529px;
-	left: 0px;
-    top: 83px;
 
-	  /* Location of the image */
 
-    background-image: url(https://cdn.discordapp.com/attachments/704436471842603129/714939799118807193/Latin_Festival_-_2017-06-09_-_Angelito_Jusay_8_1.jpg);
-
-    position: absolute;
-    width: 100%;
-    height: 529px;
-    left: -7px;
-    top: 82px;
-
-}
 .bg-image{
+	/*position: absolute;*/
 	position: absolute;
-	width: 1160px;
-	height: 529px;
+    top: 0; right: 0; bottom: 0; left: 0;
+
 	left: -7px;
 	top: 82px;
-    background-image: url(css/la);
-    /* Background image is centered vertically and horizontally at all times */
-	background-position: center center;
+	background-image: url(../imágenes/Latin_Festival_-_2017-06-09_-_Angelito_Jusay_1.png);
+	/*background-size: cover;*/
+	  /* Background image is centered vertically and horizontally at all times */
+	/*background-position: center center;
 	  /* Background image doesn't tile */
 	background-repeat: no-repeat;
-	    /* Background image is fixed in the viewport so that it doesn't move when 
+	  /* Background image is fixed in the viewport so that it doesn't move when 
 	     the content's height is greater than the image's height */
-	background-attachment: fixed;
-	    /* This is what makes the background image rescale based
+	/*background-attachment: fixed;
+	  /* This is what makes the background image rescale based
 	     on the container's size */
 	background-size: cover;
-	    /* Set a background color that will be displayed
+	  /* Set a background color that will be displayed
 	     while the background image is loading */
-
-        
-
+	/*background-color: black;*/
 
 }
 
 .boton_musica{
-    
-    width: 348px;
-    height: 57px;
-    left: 401px;
-    top: 403px;
+
+	width: auto;
+	max-width: 450px;
+	height: auto;
+	/*height: 57px;*/
+
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-size: 26px;
@@ -163,41 +76,112 @@ background: url(https://avatars2.githubusercontent.com/u/59933886?s=200&v=4)
 	border-radius: 42px;
 }
 
+.titulo__home{position: absolute;
+width: 797px;
+height: 30px;
+left: 177px;
+top: 183px;
 
-/******** Footer ********/
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 61px;
 
-.footer-home{
+color: #FFFFFF;}
+
+
+.text_logo{position: absolute;
+    width: 183px;
+    height: 64px;
+    left: 114px;
+    top: 19px;
+    
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: normal;
+    font-size: px;
+    line-height: px;
+    
+    color: #FFFFFF;
+    
+
+}
+.logo__matefy{
     position: absolute;
+width: 37px;
+height: 33px;
+left: 66px;
+top: 25px;
+
+}
+
+.titulo__home{
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 61px;
+    
+    color: #FFFFFF;
+}
+.boton_musica{
+	padding-left: 2.375rem;
+	padding-right: 2.375rem;
+	padding-top: 0.575rem;
+	padding-bottom: 0.575rem;
+	width: auto;
+	max-width: 450px;
+	height: auto;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-size: 20px;
+	color: white;
+
+	background: #1ED760;
+	border-radius: 42px;
+}
+
+
+footer {background-color:black;
+    position: fixed;
+    height: 80px;
+    bottom: 0;
     width: 100%;
-    height: 88px;
-    left: 0px;
-    top: 612px;
-    background: #000000;
 }
-.footer-home-p1{
-    position: absolute;
-    width: 242px;
-    height: 30px;
-    left: 66px;
-    top: 3px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    color: rgb(255, 255, 255);
+
+
+.logo__spotify{
+
+width: 50px;
+height: 40px;
+left: 986px;
+top: 622px;
 }
-.footer-home-p2{
+.copyright-text{
     position: absolute;
-    width: 138px;
-    height: 30px;
-    left: 859px;
-    top: 641px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
+
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+}
+h6{
+    
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
 }
 /*********** End of Footer home ***********/
 /********* start of registration page **********/
