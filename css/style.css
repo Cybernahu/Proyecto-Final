@@ -254,24 +254,21 @@ margin: 0px auto 36px;
     color: black;
 }
 .input-register1{
-    display: absolute;
-    right: 100px;
+text-align: center;
     width: 45px;
     height: 30px;
     border-radius: 33px;
     border-color:rgba(31, 32, 65, 0.25);
 }
 .input-register2{
-    display: absolute;
-    right: 100px;
+text-align: center;
     width: 45px;
     height: 30px;
     border-radius: 33px;
     border-color:rgba(31, 32, 65, 0.25);
 }
 .input-register3{
-    display: absolute;
-    right: 100px;
+text-align: center;
     width: 45px;
     height: 30px;
     border-radius: 33px;
