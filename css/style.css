@@ -253,6 +253,32 @@ margin: 0px auto 36px;
     line-height: 22px;
     color: black;
 }
+.input-register1{
+    display: absolute;
+    right: 100px;
+    width: 45px;
+    height: 30px;
+    border-radius: 33px;
+    border-color:rgba(31, 32, 65, 0.25);
+}
+.input-register2{
+    display: absolute;
+    right: 100px;
+    width: 45px;
+    height: 30px;
+    border-radius: 33px;
+    border-color:rgba(31, 32, 65, 0.25);
+}
+.input-register3{
+    display: absolute;
+    right: 100px;
+    width: 45px;
+    height: 30px;
+    border-radius: 33px;
+    border-color:rgba(31, 32, 65, 0.25);
+}
+
+
 /******* End of Registration page *******/
 
 /******** Start of Login page ********/
@@ -289,6 +315,29 @@ margin: 0px auto 36px;
 /********** End of Login page**********/
 /************** Start Register-Footer ************/
 
+.footer-img{
+position: absolute;
+right: 50px;
+margin-top: 20px;
+}
+.diseña-uy{
+    margin-right: 0px;
+    display: inline-block;
+}
+.main-footer-div{
+    margin: 0px;
+    width: 200px;
+}
 .register-footer{
-margin: 0px;
+    border-top: 1px solid rgba(101, 101, 101, 0.33);
+}
+.powered-by{
+    position: absolute;
+    right: 168px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
 }
