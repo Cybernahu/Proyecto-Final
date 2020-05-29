@@ -1,23 +1,35 @@
+/******HOME******/
+.titulo{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 61px;
+	color: white;}
 
-.main {
-    width: 50%;
-}
-/********* Header *********/
-.header-home{
-    width: 100%;
-    height: 83px;
-    left: 0px;
-    top: 0px;
+.has-search .form-control {
+    padding-left: 2.375rem;
+    /*position: absolute;
     
-    background: black;
+	height: 57px;*/
+
+	margin: 70px auto;
+	width: 100%;
+	max-width: 738px;
+	height: 57px;
+
+	background: #FFFFFF;
+	/* Dark 25% */
+
+	border: 1px solid rgba(31, 32, 65, 0.25);
+	box-sizing: border-box;
+	border-radius: 33px;
 }
-.logo-matea-header{
-    position: absolute;
-    width: 37px;
-    height: 33px;
-    left: 66px;
-    top: 25px;
-    background: url(https://avatars2.githubusercontent.com/u/59933886?s=200&v=4)
+
+
+
+/********* Header *********/
+
 }
 .header-home-signin{
     position: absolute;
@@ -72,41 +84,9 @@
     text-align: center;
 }
 
-.has-search .form-control {
-    padding-left: 2.375rem;
-    /*position: absolute;
-    
-	height: 57px;*/
-
-	margin: 70px auto;
-	width: 100%;
-	max-width: 738px;
-	height: 57px;
-}
-.has-search .form-control{
-    position: absolute;
-    width: 738px;
-    height: 57px;
-    left: 206px;
-    top: 202px;
 
 
-	background: #FFFFFF;
-	/* Dark 25% */
-	border: 1px solid rgba(31, 32, 65, 0.25);
-	box-sizing: border-box;
-	border-radius: 33px;
-}
 
-
-.titulo{
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
-	font-weight: 800;
-	font-size: 36px;
-	line-height: 61px;
-	color: white;
-}
 
 
 
@@ -125,22 +105,7 @@
     color: #FFFFFF;
 }
 
-.contenedor__home{
-	/*background-color: black;*/
-	position: absolute;
-	width: 100%;
-	height: 529px;
-	left: 0px;
-    top: 83px;
 
-	  /* Location of the image */
-    background-image: url(https://cdn.discordapp.com/attachments/704436471842603129/714939799118807193/Latin_Festival_-_2017-06-09_-_Angelito_Jusay_8_1.jpg);
-    position: absolute;
-    width: 100%;
-    height: 529px;
-    left: -7px;
-    top: 82px;
-}
 .bg-image{
 	/*position: absolute;*/
 	position: absolute;
