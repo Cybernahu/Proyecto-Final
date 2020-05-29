@@ -1,5 +1,5 @@
 /******HOME******/
-.titulo{
+h1{
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: 800;
@@ -30,7 +30,7 @@
 
 /********* Header *********/
 
-}
+
 .header-home-signin{
     position: absolute;
     width: 150px;
