@@ -10,11 +10,11 @@
 }
 .logo-matea-header{
     position: absolute;
-width: 37px;
-height: 33px;
-left: 66px;
-top: 25px;
-background: url(https://avatars2.githubusercontent.com/u/59933886?s=200&v=4)
+    width: 37px;
+    height: 33px;
+    left: 66px;
+    top: 25px;
+    background: url(https://avatars2.githubusercontent.com/u/59933886?s=200&v=4)
 }
 .header-home-signin{
     position: absolute;
@@ -60,17 +60,13 @@ background: url(https://avatars2.githubusercontent.com/u/59933886?s=200&v=4)
 }
 /*********End of Header*********/
 
-
-
 /**** Aqui el contenido del home****/
 .main {
-
     width: 100%;
     margin: 50px auto;
     align-items: center;
     text-align: center;
 }
-
 .has-search .form-control{
     position: absolute;
     width: 738px;
@@ -78,16 +74,12 @@ background: url(https://avatars2.githubusercontent.com/u/59933886?s=200&v=4)
     left: 206px;
     top: 202px;
     
-    
-
 	background: #FFFFFF;
 	/* Dark 25% */
-
 	border: 1px solid rgba(31, 32, 65, 0.25);
 	box-sizing: border-box;
 	border-radius: 33px;
 }
-
 .text__titulo{
 	position: absolute;
     width: 797px;
@@ -100,7 +92,6 @@ background: url(https://avatars2.githubusercontent.com/u/59933886?s=200&v=4)
     font-weight: 800;
     font-size: 50px;
     line-height: 61px;
-
     color: #FFFFFF;
 }
 
@@ -113,9 +104,7 @@ background: url(https://avatars2.githubusercontent.com/u/59933886?s=200&v=4)
     top: 83px;
 
 	  /* Location of the image */
-
     background-image: url(https://cdn.discordapp.com/attachments/704436471842603129/714939799118807193/Latin_Festival_-_2017-06-09_-_Angelito_Jusay_8_1.jpg);
-
     position: absolute;
     width: 100%;
     height: 529px;
@@ -142,9 +131,6 @@ background: url(https://avatars2.githubusercontent.com/u/59933886?s=200&v=4)
 	background-size: cover;
 	    /* Set a background color that will be displayed
 	     while the background image is loading */
-
-        
-
 
 }
 
@@ -203,16 +189,16 @@ background: url(https://avatars2.githubusercontent.com/u/59933886?s=200&v=4)
 /********* start of registration page **********/
 .register-tittle{
 
-width: 121px;
-height: 64px;
-margin: 0px auto;
+    width: 183px;
+    height: 64px;
+    margin: 0px auto;
 
-font-family: 'Righteous', cursive;
-font-style: normal;
-font-weight: normal;
-font-size: 32px;
-line-height: 40px;
-color: white;
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    color: white;
 }
 .col-md-12 {
     width: auto;
@@ -254,27 +240,52 @@ margin: 0px auto 36px;
     color: black;
 }
 .input-register1{
-text-align: center;
-    width: 45px;
-    height: 30px;
-    border-radius: 33px;
+    margin-right: 25px;
+    width: 90px;
+    height: 56.43px;
+    border-radius: 50px;
     border-color:rgba(31, 32, 65, 0.25);
+        
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    box-sizing: border-box;
+    opacity: 0.5;
 }
 .input-register2{
-text-align: center;
-    width: 45px;
-    height: 30px;
+    position: absolute;
+    margin-right: 24px;
+
+    width: 211px;
+    height: 56.43px;
     border-radius: 33px;
     border-color:rgba(31, 32, 65, 0.25);
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 50%;
 }
 .input-register3{
-text-align: center;
-    width: 45px;
-    height: 30px;
+    width: 173px;
+    height: 56.43px;
     border-radius: 33px;
     border-color:rgba(31, 32, 65, 0.25);
-}
 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 50%;
+}
+.center-row{
+    justify-content: center;
+}
 
 /******* End of Registration page *******/
 
@@ -318,15 +329,17 @@ right: 50px;
 margin-top: 20px;
 }
 .diseña-uy{
-    margin-right: 0px;
+    margin: 20px 0px 0px 0px;
     display: inline-block;
 }
-.main-footer-div{
-    margin: 0px;
-    width: 200px;
-}
+
 .register-footer{
-    border-top: 1px solid rgba(101, 101, 101, 0.33);
+    position: sticky;
+    bottom: 0px;
+    width: 1152px;
+    height: 88px;
+    border: 1px solid rgba(101, 101, 101, 0.33);
+    
 }
 .powered-by{
     position: absolute;
