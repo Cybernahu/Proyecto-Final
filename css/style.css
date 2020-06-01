@@ -644,6 +644,84 @@ h6{
     color: #FFFFFF;
     
 }
+.number_1{position: absolute;
+    width: 858px;
+    height: 51px;
+    left: 134px;
+    top: 327px;
+    
+    background: #282828;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px
+
+}
+.table{
+  
+height: 22.09px;
+left: 31.36%;
+right: 57.38%;
+top: calc(50% - 22.09px/2 + 115.03px);
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* or 133% */
+
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.5;
+}
+
+.number-1 {
+    background: #282828;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+   
+width: 858px;
+height: 51px;
+left: 134px;
+top: 327px;
+
+}
+.number-2{
+    width: 858px;
+    height: 57px;
+    left: 132px;
+    top: 431px;
+}
+.number-3{
+    background: #282828;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    width: 858px;
+height: 57px;
+left: 132px;
+top: 431px;}
+
+.text-table{
+  
+height: 22.09px;
+left: 31.36%;
+right: 61.09%;
+top: calc(50% - 22.09px/2 + 7.33px);
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* or 133% */
+
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.5;
+} 
 
 
 
@@ -660,4 +738,28 @@ h6{
     font-family: 'Source Sans Pro';
 /* or 137% */
     color: #FFFFFF;
+}
+
+
+
+i{
+   
+    font-family:'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 26px;
+    /* or 64% */
+    
+    
+    color:white;
+    
+    mix-blend-mode: normal;  
+}
+i {
+    border-radius: 100%;
+    
+    background: #1ED760;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    
 }
