@@ -727,3 +727,23 @@ i {
     transform: matrix(-1, 0, 0, 1, 0, 0);
     
 }
+.bangla{
+
+    height: 22.09px;
+    left: 48.38%;
+    right: 43.95%;
+    top: calc(50% - 22.09px/2 + 7.33px);
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+    
+    
+    color: #FFFFFF;
+    
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
