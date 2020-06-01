@@ -371,7 +371,43 @@ margin: 0px auto 36px;
     
 }
 .mateify-text-login{
+    position: absolute;
+    width: 183px;
+    height: auto;
+    top: 19px;
+    margin-left: 50%;
+    margin-right: 30%;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
     
+    color: #000000;
+}
+
+.bg-white{
+    background-color: white;
+}
+.login-text-rememberpassword{
+    position: absolute;
+    display: inline-block;
+    width: auto;
+    height: 16px;
+    left: 437px;
+    top: 384px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    position: absolute;
+    
+    color: #1ED760;
+
+
 }
 .titulo{
     font-family: 'Montserrat';
