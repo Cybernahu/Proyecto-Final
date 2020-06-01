@@ -83,10 +83,9 @@ h1{
     align-items: center;
     text-align: center;
 }
-
-
-
-
+.bg-black{
+    background-color: black;
+}
 
 
 
@@ -129,7 +128,11 @@ h1{
 	     while the background image is loading */
 
 	/*background-color: black;*/
-
+margin-top: 0%;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
 
 }
 
@@ -217,13 +220,8 @@ top: 25px;
 }
 
 
-footer {background-color:black;
-    position: fixed;
-    height: 80px;
-    bottom: 0;
-    width: 100%;
-}
 
+/******* Footer Home ********/
 
 .logo__spotify{
 
@@ -256,6 +254,29 @@ line-height: 24px;
 
 color: #FFFFFF;
 }
+footer {background-color:black;
+    position: fixed;
+    height: 80px;
+    bottom: 0;
+    width: 100%;
+}
+.copyright-text{
+align-content: flex-end;
+align-self: flex-end;
+align-items: flex-end;
+justify-content: flex-end;
+
+}
+.footer-home-text{
+position: fixed;
+right: 5.5%;
+}
+.footer-home__h6{
+    position: fixed;
+    bottom: 6%;
+    left: 0.5%;
+}
+
 /*********** End of Footer home ***********/
 /********* start of registration page **********/
 .register-tittle{
@@ -427,4 +448,34 @@ margin-top: 20px;
     background-color: black;
 width: 100%;
 height: auto;
+}
+.button-playlist{
+    position: fixed;
+    right: 50px;
+    width: 213px;
+    height: 43px;
+
+    background: #1ED760;
+    border-radius: 42px;
+}
+.mateify-logo{
+    position: absolute;
+    width: 183px;
+    height: 64px;
+    left: 114px;
+    top: 19px;
+    color: white;
+
+}
+.body-search {
+    background-color: black;
+}
+.nav-search{
+    background-color: black;
+}
+.bg-black{
+    background-color: black;
+}
+.margin-playlist{
+    margin-right: 22.9px;
 }
