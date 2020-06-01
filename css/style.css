@@ -153,8 +153,8 @@ margin-top: 0%;
 }
 
 
-.text_logo
-{position: absolute;
+.text_logo{
+    position: absolute;
     width: 183px;
     height: 64px;
     left: 114px;
@@ -436,6 +436,24 @@ h6{
 
 /********** SEARCH PLAY LIST ***********/
 
+
+/******** Comienzo de Boton de nueva play list **********/
+.button-playlist{
+    position: absolute;
+    width: 213px;
+    height: auto;
+    top: 0px;
+    right: 0px;
+    background: #1ED760;
+    border-radius: 42px;
+}
+
+
+/******** Final de Boton de nueva play list **********/
+
+
+
+
 /********** EFECTOS EN BOTON***********/
 
 
@@ -455,44 +473,69 @@ h6{
 	
 }
 
-/********** FIN DE EFECTOS EN IMAGEN***********/
+/********** FIN DE EFECTOS EN IMAGEN ***********/
 
-/********** TITULO PLAY LIST***********/
+/********** TITULO PLAY LIST ***********/
+.search-text_logo{
+    position: absolute;
+    width: 183px;
+    height: 64px;
+    left: 100px;
+    top: 10px;
+    
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    
+    color: #FFFFFF;
+
+}
+.searchplaylist-logo{
+    position: absolute;
+    height: 33px;
+    width: 37px;
+    top: 25px;
+    left: 66px;
+
+
+}
 .title-text{
 
-height: 28px;
-left: 5.73%;
-right: 86.57%;
-top: calc(50% - 28px/2 - 127px);
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 22px;
+    height: 28px;
+    left: 5.73%;
+    right: 86.57%;
+    top: calc(50% - 28px/2 - 127px);
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
 /* or 110% */
 
 
-color: white;
+    color: white;
 
 }
 
 /********** TITULO DE LA IMAGEN ***********/
 .thumbnai-title{
 	height: 20px;
-left: 5.73%;
-right: 83.16%;
+    left: 5.73%;
+    right: 83.16%;
 
 
-font-family:'Montserrat';
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 16px;
+    font-family:'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
 /* or 100% */
 
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 /********** FIN TITULO DE IMAGEN ***********/
 
@@ -500,29 +543,49 @@ color: #FFFFFF;
 /********** PARRAFO DE LA IMAGEN ***********/
 .thumbnai-tex{
 
-height: 18px;
-left: 5.73%;
-right: 84.2%;
+    height: 18px;
+    left: 5.73%;
+    right: 84.2%;
 
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 14px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
 /* or 100% */
 
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
-mix-blend-mode: normal;
-opacity: 0.48;
+    mix-blend-mode: normal;
+    opacity: 0.48;
 }
 /********** FIN PARRAFO DE LA IMAGEN ***********/
-/********** Search Play List ***********/
-/********** Search Play List ***********/
-.padre{
-    background-color: black;
-width: 100%;
-height: auto;
+/******* Barra de Busqueda del Search *******/
+.search-input{
+    display: inline-block;
+    ;width: 753px;
+    height: 43px;
+    margin-bottom: 41px;
+    border-radius: 33px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
 }
+.search-input::placeholder{
+    width: 501.28px;
+    height: auto;
+    padding-left: 51px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+    
+    
+    color: #505054;
+    
+}
+
+/******* Fin de Barra de Busqueda del Search *******/

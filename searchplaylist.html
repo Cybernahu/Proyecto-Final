@@ -8,7 +8,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <title>home</title>
+        <title>Searchplaylist</title>
         <link rel="stylesheet" href="css/style.css" type="text/css">
         <!--Montserrat font-->
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -16,14 +16,14 @@
 </head>
 
 <body style="background-color: black;">
-<nav class="navbar navbar-expand-lg py-3 navbar-dark bg-dark shadow-sm">
+<nav class="navbar navbar-expand-lg py-3 navbar-dark bg-black shadow-sm">
     <div class="container">
         <a href="#" class="navbar-brand">
             <!-- Logo Image -->
-            <img src="imágenes/LogoSoloBlancoFondoTransparente1.png" width="45" alt="" class="logo__matefy">
+            <img class="container " src="imágenes/LogoSoloBlancoFondoTransparente1.png" width="45" alt="" class="searchplaylist-logo">
             <!-- Logo Text -->
             <span>
-                <div class="text_logo">Matefy</div>
+                <div class="container search-text_logo">Matefy</div>
             </span>
         </a>
         
@@ -46,7 +46,12 @@
 
 <hr color="white" size="3">
 
-
+<div class="bg-black container">
+    <div class="col-md-6 col-xs-6 col-sm-6 ">
+        <input class="search-input inline-block" type="text" placeholder="Reggaeton">
+        <button class="btn btn-success button-playlist inline-block" type="button">Nueva Playlist</button> 
+    </div>
+</div>
 
 
 
