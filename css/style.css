@@ -118,17 +118,17 @@
 	/*background-position: center center;
 	  /* Background image doesn't tile */
 	background-repeat: no-repeat;
-	  /* Background image is fixed in the viewport so that it doesn't move when 
+	/* Background image is fixed in the viewport so that it doesn't move when 
 	     the content's height is greater than the image's height */
 	/*background-attachment: fixed;
-	  /* This is what makes the background image rescale based
+	/* This is what makes the background image rescale based
 	     on the container's size */
 	background-size: cover;
-	  /* Set a background color that will be displayed
+	/* Set a background color that will be displayed
 	     while the background image is loading */
 
-	/*background-color: black;*/
-margin-top: 0%;
+        margin-top: 0%;
+        /*background-color: black;*/
 }
 .nav-link{
     text-decoration: none;
@@ -171,11 +171,11 @@ margin-top: 0%;
 
 }
 .logo__matefy{
+    width: 37px;
+    height: 33px;
+    left: 66px;
+    top: 25px;
     position: absolute;
-width: 37px;
-height: 33px;
-left: 66px;
-top: 25px;
 
 }
 
@@ -212,34 +212,31 @@ top: 25px;
 
 .logo__spotify{
 
-width: 50px;
-height: 40px;
-left: 986px;
-top: 622px;
+    width: 50px;
+    height: 40px;
+    left: 986px;
+    top: 622px;
 }
 .copyright-text{
     position: absolute;
-
-
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 24px;
-
-color: #FFFFFF;
+    font-style: normal;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+    
+    color: #FFFFFF;
 
 }
 h6{
     
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
 
-color: #FFFFFF;
 }
 footer {background-color:black;
     position: fixed;
@@ -248,15 +245,15 @@ footer {background-color:black;
     width: 100%;
 }
 .copyright-text{
-align-content: flex-end;
-align-self: flex-end;
-align-items: flex-end;
-justify-content: flex-end;
-
+    align-self: flex-end;
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-content: flex-end;
+    
 }
 .footer-home-text{
-position: fixed;
-right: 5.5%;
+    right: 5.5%;
+    position: fixed;
 }
 .footer-home__h6{
     position: fixed;
@@ -300,8 +297,8 @@ right: 5.5%;
 
 }
 .input-register::placeholder{
-text-align: start;
-padding-left: 5px;
+    padding-left: 5px;
+    text-align: start;
 }
 .background-register{
     background-color: white;
@@ -371,6 +368,9 @@ margin: 0px auto 36px;
 /******** Start of Login page ********/
 .login-tittle{
     font-family: 'montserrat';
+    
+}
+.mateify-text-login{
     
 }
 .titulo{
@@ -541,7 +541,7 @@ h6{
 
 
 /********** PARRAFO DE LA IMAGEN ***********/
-.thumbnai-tex{
+.thumbnai-text{
 
     height: 18px;
     left: 5.73%;
@@ -612,20 +612,16 @@ h6{
 
 
 .sub-header{
-   
-height: 30px;
-left: 11.46%;
-right: 68.66%;
-top: calc(50% - 30px/2 - 84px);
+    left: 11.46%;
+    right: 68.66%;
+    top: calc(50% - 30px/2 - 84px);
+    height: 30px;
 
-font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 22px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Source Sans Pro';
 /* or 137% */
-
-
-color: #FFFFFF;
-
+    color: #FFFFFF;
 }
