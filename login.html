@@ -8,7 +8,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <!-- Montserrat font -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!--Righteous font-->
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <!--CSS link-->
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <style>
     .fakeimg {
@@ -18,6 +21,7 @@
     </style>
 </head>
 <body>
+
 <header class="login-header">
     <p class="mateify-text-login">Mateify</p>
 </header>
@@ -30,48 +34,70 @@
     <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    -->
+    
     </div>  
-</nav>
+</nav>-->
 
 <div class="container bg-white center" style="margin-top:80px">
     <div class="row ">
-    
     <div class="col-sm-12 col center">
         <p class="titulo">Para continuar, inicia sesión</p>
         </div>
         </div>
-        
+
         <div class="row">
             <div class="col-sm-12 col center">
                 <div class="form-group">
                     <label for="exampleDropdownFormEmail2"></label>
-                    <input type="email" class=" input-register" id="exampleDropdownFormEmail2" placeholder="Correo electrónico o nombre de usuario">
+                    <input type="email" class="input-login" id="exampleDropdownFormEmail2" placeholder="Correo electrónico o nombre de usuario">
                 </div>
             </div>
         </div>
+
         <div class="row">
             <div class="col-sm-12 col center">
                 <div class="form-group">
                     <label for="exampleDropdownFormPassword2"></label>
-                    <input type="password" class=" input-register" id="exampleDropdownFormPassword2" placeholder="Contraseña">
+                    <input type="password" class=" input-login" id="exampleDropdownFormPassword2" placeholder="Contraseña">
                 </div>
             </div>
         </div>
-        <div class="form-check inline-block margin-left ">
-            <input type="checkbox" class="form-check-input margin-left checkbox" id="dropdownCheck2">
-            <label class="form-check-label" for="dropdownCheck2">
+
+        <div class="form-check inline-block login-margin-right_checkbox ">
+            <input type="checkbox" class="form-check-input login-margin-right_checkbox checkbox-login" id="dropdownCheck2">
+            <label class="login-form-check-label" for="dropdownCheck2">
                 Recuerdame
             </label>
         </div>
-        <button class="btn btn-success login-button">Iniciar sesión </button>
-        </form>
+        
+        <a href="home-header.html" class="button-link-login">
+        <button class="btn btn-success login-first-button">Iniciar sesión </button>
+        </a>
 
-        <h6 class="login-text-rememberpassword">¿Has olvidado tu contraseña?</h6>
-
+        <div class="row forget-password">
+        <div class="col-md-12 col-sm-12 col-lg-12">
+            <h6 class="login-text-rememberpassword">¿Has olvidado la contraseña?</h6>
+        </div>
+        </div>
     </div>
-    
-    
+
+    <hr size="3" color="#646464" style="margin-top: 8%;">
+
+    <div class="row no-tienes-cuenta">
+        <div class="col-md-12 col-sm-12 col-lg-12">
+            <h6 class="login-last_h6">   
+                ¿No tienes cuenta?
+            </h6>
+        </div>   
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-lg-12">
+            <a href="register.html" class="login-secundary-button_link">
+                <button class="login-secundary-button">Registrate</button>
+            </a>
+        </div>
+    </div>
 
 </body>
 </html>

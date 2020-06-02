@@ -364,8 +364,6 @@ margin: 0px auto 36px;
 }
 
 /******* End of Registration page *******/
-
-/******** Start of Login page ********/
 .center{
     text-align: center;
     justify-content: center;
@@ -373,16 +371,65 @@ margin: 0px auto 36px;
     align-self: center;
     align-content: center;
 }
+.inline-block{
+    display: inline-block;
+}
+/******** Start of Login page ********/
+.login-last_h6{
+    width: 185px;
+    height: 16px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+}
 .login-tittle{
     font-family: 'montserrat';
     
+}
+.input-login{
+    width: 527px;
+    height: 57px;
+
+    text-align: center;
+
+    border-radius: 33px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+}
+.input-login::placeholder{
+    text-align: start;
+    padding-left: 17px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    opacity: 0.5;
+}
+.no-tienes-cuenta{
+    width: 300px;
+    height: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #000000;
 }
 .mateify-text-login{
     position: absolute;
     width: 183px;
     height: auto;
     top: 19px;
-    margin-left: 50%;
+    margin-left: 45%;
     margin-right: 30%;
 
     font-family: 'Righteous';
@@ -398,14 +445,12 @@ margin: 0px auto 36px;
     background-color: white;
 }
 .login-text-rememberpassword{
-    position: absolute;
-    display: inline-block;
-    width: auto;
+    width: 300px;
     height: 16px;
-    left: 437px;
-    top: 384px;
-    
-    font-family: Montserrat;
+    margin-top: 10%;
+
+
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -413,8 +458,11 @@ margin: 0px auto 36px;
     position: absolute;
     
     color: #1ED760;
-
-
+}
+.forget-password{
+    margin-left: 29%;
+    margin-right: auto;
+    width: 320px;
 }
 .titulo{
     font-family: 'Montserrat';
@@ -426,22 +474,47 @@ margin: 0px auto 36px;
 
     color: #000000;
 }
-.login-button{
+.login-first-button{
+    width: 204px;
+    height: 38px;
+
     background: #1ED760;
     border-radius: 42px;
-}
-.inline-block{
-    display: inline-block;
-}
-.margin-left{
-    margin-right: 293.83px;
-}
-.checkbox{
-    width: 19.17px;
-    height: 19.17px;
-    margin-top: 5px;
+    
 }
 
+.login-secundary-button{
+    width: 204px;
+    height: 38px;
+
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 33%;
+
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 42px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.login-margin-right_checkbox{
+    margin-right: 203.83px;
+}
+.checkbox-login{
+    width: 29.17px;
+    height: 29.17px;
+    margin-top: 5px;
+
+}
+.login-form-check-label{
+    margin-left: 20px;
+}
 /********** End of Login page**********/
 /************** Start Register-Footer ************/
 h6{
@@ -663,31 +736,29 @@ h6{
 
 }
 .table{
-  
-height: 22.09px;
-left: 31.36%;
-right: 57.38%;
-top: calc(50% - 22.09px/2 + 115.03px);
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 16px;
+    height: 22.09px;
+    left: 31.36%;
+    right: 57.38%;
+    top: calc(50% - 22.09px/2 + 115.03px);
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    
 /* or 133% */
 
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-opacity: 0.5;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
 }
 
 .number-1 {
     background: #282828;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     border-radius: 3px;
-   
+
 width: 858px;
 height: 51px;
 left: 134px;
@@ -750,7 +821,7 @@ opacity: 0.5;
 
 
 i{
-   
+
     font-family:'Montserrat';
     font-style: normal;
     font-weight: bold;
