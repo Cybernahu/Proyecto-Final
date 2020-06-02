@@ -366,6 +366,13 @@ margin: 0px auto 36px;
 /******* End of Registration page *******/
 
 /******** Start of Login page ********/
+.center{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
 .login-tittle{
     font-family: 'montserrat';
     
