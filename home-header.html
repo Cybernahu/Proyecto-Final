@@ -1,80 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!--font Righteous-->
-        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <title>home</title>
-        <link rel="stylesheet" href="css/style.css" type="text/css">
-        <!--Montserrat font-->
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--font Righteous-->
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>home</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 </head>
-<body style="color: black;">
-  <div class="container">
-  <nav class="navbar navbar-expand-lg py-3  shadow-sm  bg-black">
-      <a href="#" class="navbar-brand">
-        <!-- Logo Image -->
-        <img  src="imágenes/LogoSoloBlancoFondoTransparente1.png" width="45" alt="" class="logo__matefy">
-        <!-- Logo Text -->
-        <span><div class="text_logo">Matefy</div></span>
-      </a>
-  
-      <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
-  
-      <div id="navbarSupportedContent" class="collapse navbar-collapse">
-        
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="register.html" class="nav-link"> Registrarse </a></li>
-          <li class="nav-item active"><a href="login.html" class="nav-link"> Iniciar Sesión<span class="sr-only">(current)</span></a></li>
-          
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <hr color="white" size="3">
- 
-  <div class="bg-image" >
-		<div class="main">
-			<h1 class="titulo">PONGAMOS MÚSICA, JUNTOS</h1>
 
-		  	<!-- Actual search box -->
-		  	<div class="form-group has-search" >
-		    	<i class="fas fa-search"></i>
-		    	<input type="text" class="form-control" placeholder="Buscar una playlist" class="responsive">
-		  	</div>
-		   	<a href="#"><button class="boton_musica">NUEVA PLAYLIST</button></a>
-		</div>
-	</div>
+<body style="background-color: black;">
 
 
-</div>
-
-
-
-
-
-
-<hr color="white" size="3">
-  <footer class="site-footer">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-6">
-          <h6 class="footer-home__h6">Diseñado en Uruguay </h6>
-          
+        <!-- nav de home -->
+        <nav class="navbar navbar-expand-lg py-3 navbar-dark  shadow-sm ">
 
-          <p class="copyright-text">Powered by<img src="https://www.brandemia.org/sites/default/files/sites/default/files/animacion_logo_spotify.gif" width="80" alt="" class="logo__spotify">
-  
-          </p>
-              
-              </div>
-          </div>
-        </div>
-      </div>
+            <a href="#" class="navbar-brand">
+                <!-- Logo Image -->
+                <img src="imágenes/LogoSoloBlancoFondoTransparente1.png" width="45" alt="" class="logo__matefy">
+                <!-- Logo Text -->
+                <span><div class="text_logo">Matefy</div></span>
+            </a>
+            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="register.html" class="nav-link"> Registrarse </a></li>
+                    <li class="nav-item active"><a href="login.html" class="nav-link"> Usuario<span
+                                class="sr-only">(current)</span></a></li>
+                </ul>
+        </nav>
     </div>
-</footer>
+        <!-- fin nav de home -->
+
+
+         <!-- contenedor home -->
+        <div class="container">
+           
+                
+            <div class="row">
+<div class="bg-image" >
+                        <div class="main">
+                            <h1 class="titulo" style="color:white;">PONGAMOS MÚSICA, JUNTOS </h1>
+                
+                              <!-- Actual search box -->
+                              <div class="form-group has-search" >
+                                <!-- <i class="fas fa-search"></i>-->
+                                <input type="text" class="form-control" placeholder="Buscar una playlist" class="responsive">
+                              </div>
+                               <a href="#"><button class="boton_musica">NUEVA PLAYLIST</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <footer class="footer">
+                <div class="container-fluid">
+                    <span><h6>Diseñado en Uruguay</h6></span>
+            <p class="copyright-text">Powered by<img src="imágenes/LogoSoloBlancoFondoTransparente1.png" width="80" alt="" class="logo__spotify">
+        
+                </div>
+              </footer>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript opcional -->
+    <!-- Primero jQuery, luego Popper.js, luego Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+        
 </body>
+
 </html>
