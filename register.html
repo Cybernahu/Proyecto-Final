@@ -1,92 +1,197 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!--font Righteous-->
-        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <title>Hello, world!</title>
-        <link rel="stylesheet" href="css/style.css" type="text/css">
-        <!--Montserrat font-->
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--font Righteous-->
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>home</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    
+
+
+
+
+
+    <div class="container">
+       
+        <!-- nav de home -->
+        <nav class="navbar navbar-expand-lg py-3 navbar-dark  shadow-sm ">
+
+            <a href="#" class="navbar-brand">
+                <!-- Logo Image -->
+                <div class="col-md-6 "></div>
+                <img src="imágenes/LogoSoloNegroFondoTransparente.png" style="text-align: center; width: 45px;" alt="" class="logoo__matefy">
+                <!-- Logo Text -->
+                <span><div class="text_logoo" style="text-align: center; width: 45px;color: black;">Matefy</div></span>
+            </a>
+            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+
+              
+        </nav>
+    </div>
+        <!-- fin nav de home -->
+        <br>
+
+    <div class="container">
+       
+        <div class="signup-form-container">
         
-    </head>
-    <body>
-        <div class="background-register">
-            <div class="conteiner">
-            <h3 class="register-tittle">
-                Mateify
-            </h3>
-            <div class="row">
-                <div class="col-md-12 col-xs col-sm-12 -12col-xl-12 col-lg-12 col-xl-12 col">
-                    <p class="register-tittle-form">
-                        Registrate con tu direccion de email
-                    </p>
-                    <input class="input-register" type="text" placeholder="Correo electrónico">
+             <!-- form comienzo-->
+
+             <form role="form" id="register-form" autocomplete="off">
+                 <!-- titulo form-->
+             <div class="form-header">
+              <h3 class="form-title">Registrate con tu dirección de email</h3>
+                          
+             <div class="pull-right">
+                 <h3 class="form-title"><span class="glyphicon glyphicon-pencil"></span></h3>
+             </div>
+                          
+             </div>
+              <!--fin titulo form-->
+
+
+                <!--comienzo contenido formulario-->
+             <div class="form-body">
+                          
+                <div class="form-group">
+                       <div class="input-group">
+                       <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+                       <input name="name" type="text" class="form-control" placeholder="Correo electrónico">
+                       </div>
+                       <span class="help-block" id="error"></span>
+                  </div>
+                            
+                  <div class="form-group">
+                       <div class="input-group">
+                       <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+                       <input name="email" type="text" class="form-control" placeholder=" Confirmar correo electrónico">
+                       </div> 
+                       <span class="help-block" id="error"></span>                     
+                  </div>
+                             
+                  <div class="form-group">
+                    <div class="input-group">
+                    <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+                    <input name="email" type="text" class="form-control" placeholder="Contraseña">
+                    </div> 
+                    <span class="help-block" id="error"></span>                     
+               </div>
+                          
+               <div class="form-group">
+                <div class="input-group">
+                <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+                <input name="email" type="text" class="form-control" placeholder="Nombre de usuario ">
+                </div> 
+                <span class="help-block" id="error"></span>                     
+           </div>
+  <!--comienzo contenido formulario-->
+
+
+  <div class="row">
+    <div class="form-check-inline">
+    <select class="selectuno">
+        <option>Dia</option>
+    </select>
+</div>
+    <div class="form-check-inline">
+        <select class="selectdos">
+            <option>Mes</option>
+        </select>
+    </div>
+        <div class="form-check-inline">
+            <select class="selecttres">
+                <option>Año</option>
+            </select>
+        </div>
+    </div>
+<br>
+                     <!--Marcacion de checkout-->       
+           <div class="row">
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="optradio">Masculino
+                        </label>
+                      </div>
+                      <div class="form-check-inline">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="optradio">Femenino
+                        </label>
+                      </div>
+                      <div class="form-check-inline">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="optradio"> otro
+                        </label>
+                      </div>
+                    </div>
+                </form>
                 </div>
             </div>
+            <br>
             <div class="row">
-                <div class="col-md-12 col-xs col-sm-12 -12col-xl-12 col-lg-12 col-xl-12 col">
-                    <input class="input-register" type="text" placeholder="Confirmar correo electrónico">
+                <div class="form-check-inline">
+                <div class="col-md-12 col-md-4 col-lg-2">
+                  <button class="btn btn-primary btn-block"> REGISTRARSE</button>
                 </div>
             </div>
+            </div>
+            <br>
+            <p class="form-pie">¿Ya tienes cuenta?</p>
+
             <div class="row">
-                <div class="col-md-12 col-xs col-sm-12 -12col-xl-12 col-lg-12 col-xl-12 col">
-                    <input class="input-register" type="password" placeholder="Contraseña">
+                <div class="form-check-inline">
+                <div class="col-md-12 col-md-4 col-lg-2">
+                  <button class="button-fin"> REGISTRARSE</button>
                 </div>
             </div>
-            <div class="row ">
-                <div class="col-md-12 col-xs col-sm-12 -12col-xl-12 col-lg-12 col-xl-12 col">
-                    <input class="input-register" type="text" placeholder="Nombre de usuario">
-                </div>
+            </div>
+
+
+            
+        <!--Fin de checkout-->  
+    
+        <!-- form fin-->
+        <div class="container">
+            <hr color="white" size="3">
+            <nav class="navbar navbar-expand-lg py-3 navbar-dark  shadow-sm ">
+                <ul class="navbar-nav ml-auto">
+                    
+                    <li class="nav-item active"><a href="login.html" class="nav-link" style="color:black;font-family:'moserrat';font-size: 20px;">Diseñado en Uruguay<span class="sr-only">(current)</span></a></li>
+                    
+                </ul>
         
-                <div class="row center-row">
-                    <div class="col-md-4 col-xs-4 col-sm-2 col-xl-4 col-lg-4 col">
-                        
-                        <input class="input-register1 inline-block" type="number" placeholder="Día">
-                    </div>
-                </div>
-
-                                            
-                <div class="row center-row">
-                    <div class="col-md-4 col-xs-4 col-sm-2 col-xl-4 col-lg-4 col">
-                        <input class="input-register2 inline-block" type="number" placeholder="Mes">
-                    </div>
-                </div>
-                                            
-                <div class="row center-row">
-                    <div class="col-md-4 col-xs-4 col-sm-2 col-xl-4 col-lg-4 col">
-
-                        <input class="input-register3 inline-block" type="number" placeholder="Año">
-                    </div>
-                </div>
-
-
-
-        </div>
-        </div>
-
+            
+                <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+            
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                
+                <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"></li>   <p class="copyright-texto">Powered by</p> <img src="imágenes/Spotify Logoversion 1.png" width="70px" height="50px" class="nav-link"><span class="sr-only">(current)</span></li>
+                </ul>
+            
+            
+            </nav>
+        
+        </div>   
+        
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
         
-        <footer class="main-register-footer footer-sticky">
-            
-                <p class="diseña-uy">
-                    Diseñado en Uruguay
-                </p>
-                
-            
-            
-                
-                
-                <p class="copyright-text">Powered by<img class="logo__spotify" src="imágenes/spotify_logo.png" >
-            
-            </footer>
     </body>
 </html>

@@ -27,7 +27,6 @@
 }
 
 
-
 /********* Header *********/
 
 
@@ -262,108 +261,176 @@ footer {background-color:black;
 }
 
 /*********** End of Footer home ***********/
-/********* start of registration page **********/
-.register-tittle{
 
-    width: 183px;
-    height: 64px;
-    margin: 0px auto;
 
-    font-family: 'Righteous', cursive;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 40px;
-    color: white;
-}
-.col-md-12 {
-    width: auto;
-    margin: 0rem;
-    text-align: center;
 
-}
-.col{
-    background-color: white;
+
+/********* COMIENZO REGISTRO **********/
+.row{
     justify-content: center;
-    align-items: center;
-    margin-bottom: 15px;
-}
-.input-register{
-    text-align: center;
-    width: 527px;
-    height: 57px;
-    border-radius: 33px;
-    border: 1px solid rgba(31, 32, 65, 0.25);
+    margin-left: 0px;
+    
 
-}
-.input-register::placeholder{
-    padding-left: 5px;
-    text-align: start;
-}
-.background-register{
-    background-color: white;
-}
-.register-tittle-form{
-    width: 342px;
-    height: 16px;
-
-margin: 0px auto 36px;
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
-    color: black;
-}
-.input-register1{
-    margin-right: 25px;
-    width: 90px;
-    height: 56.43px;
-    border-radius: 50px;
-    border-color:rgba(31, 32, 65, 0.25);
-        
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 14px;
     line-height: 24px;
-    box-sizing: border-box;
-    opacity: 0.5;
+    /* identical to box height, or 171% */
+    
+    
+    color: rgba(31, 32, 65, 0.25);
 }
-.input-register2{
-    position: absolute;
-    margin-right: 24px;
+.input-group .form-control:not(:first-child) { border-radius: 33px;}
+
+.form-control{
+ 
+
+background: #FFFFFF;
+/* Dark 25% */
+
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 33px;
+}
+.btn-block{
+   align-items: center;
+width: 191px;
+height: 38px;
+left: 480px;
+top: 647px;
+
+background: #1ED760;
+border-radius: 42px;
+
+}
+.btn-primary{
+
+
+left: 515px;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+
+color: #FFFFFF;}
+.form-pie{
+    text-align: center; font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+}
+.button-fin{
+    width: 204px;
+    height: 38px;
+    left: 470px;
+    top: 824px;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 42px;
+    
+}
+[type=button], [type=reset], [type=submit], button{
+    width: 123px;
+height: 16px;
+left: 515px;
+top: 834px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+
+color: #000000;
+}
+.copyright-texto{
+    width: 138px;
+height: 30px;
+left: 859px;
+top: 948px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 24px;
+
+color: #000000;
+}
+select{
+    
+    font-family:'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+color: rgba(31, 32, 65, 0.25);
+}
+
+    .selectuno{
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    
+    width: 90px;
+height: 36.43px;
+left: 316px;
+top: 490px;
+    background: #FFFFFF;
+    /* Dark 25% */
+    
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+
+.selectdos{
+
 
     width: 211px;
-    height: 56.43px;
-    border-radius: 33px;
-    border-color:rgba(31, 32, 65, 0.25);
+height: 36.43px;
+left: 431px;
+top: 490.44px;
+    background: #FFFFFF;
+/* Dark 25% */
 
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    opacity: 50%;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 50px;
 }
-.input-register3{
-    width: 173px;
-    height: 56.43px;
-    border-radius: 33px;
-    border-color:rgba(31, 32, 65, 0.25);
+.selecttres{
 
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    opacity: 50%;
+width: 173px;
+height: 36.43px;
+left: 666px;
+top: 490.44px;
+    background: #FFFFFF;
+/* Dark 25% */
+
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 50px;
 }
-.center-row{
-    justify-content: center;
-}
+
+
 
 /******* End of Registration page *******/
+
+
+
+
+
 
 /******** Start of Login page ********/
 .center{
