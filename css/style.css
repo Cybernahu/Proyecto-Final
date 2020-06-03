@@ -405,7 +405,12 @@ border-radius: 50px;
 
     color: #000000;
 }
-
+.logoo__mateify::before{
+    content: "Mateify";
+    width: 300px;
+    height: 40px;
+    color: black;
+}
 .mateify-text-login::after{
     content: "Mateify";
     position: absolute;
@@ -526,8 +531,6 @@ h6{
     
     color: #FFFFFF;
     }
-
-
 
 .register-footer{
     position: sticky;
@@ -859,4 +862,24 @@ i {
     
     mix-blend-mode: normal;
     opacity: 0.5;
+}
+/*************** Start Playlist Voted page ***************/
+.tamaño-dislike-gray{
+    background-color:#282828;
+    color: red;
+}
+.tamaño-like-gray {
+    background-color:#282828;
+    color: #1ED760;
+}
+.tamaño-dislike{
+    color: red;
+    background-color: black;
+}
+.tamaño-like {
+    color: #1ED760;
+    background-color: black;
+}
+.borderless{
+    border: none;
 }

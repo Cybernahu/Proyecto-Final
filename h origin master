@@ -1,0 +1,716 @@
+[33mcommit a07921c387b2e2faea895cf8e6b8d8712f48717a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: aa065fc a2790f2
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Wed Jun 3 15:03:02 2020 -0300
+
+    ajustes en el login
+
+[33mcommit aa065fc7894e9997edce03c824ea217033df62f2[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Wed Jun 3 14:57:37 2020 -0300
+
+    ajustes en el login
+
+[33mcommit a2790f2599d0b252b66435d65c5ddd306e4948cd[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Wed Jun 3 14:43:10 2020 -0300
+
+    arreglando codigos
+    
+    arreglando codigo buenas practicas
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 45b47d6df17c1fa35c5ed4c38f3026c91ff4b693[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Wed Jun 3 14:07:02 2020 -0300
+
+    confirmar en master
+
+[33mcommit 18fc5e4e56b336e0f923f69cae1910b98bc6ab99[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Wed Jun 3 13:37:35 2020 -0300
+
+    Update register.html
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 3abe51d25cdb34a7dfb3158195359c110e0a1f80[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Tue Jun 2 21:46:33 2020 -0300
+
+    arreglando footer
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 89bee97edca4b48a40ed4180e643db93690cf376[m
+Merge: abae8b2 eceb750
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Tue Jun 2 20:50:47 2020 -0300
+
+    conflictos
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit abae8b297966d3ac3aee4166edf50acca2620852[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Tue Jun 2 20:49:07 2020 -0300
+
+    formulario
+    
+    arreglando formulario
+
+[33mcommit eceb750843d089b9ee34b5f780404e35e60ecc15[m
+Merge: f29d7fc 0904429
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Tue Jun 2 18:27:57 2020 -0300
+
+    Merge branch 'master' of https://github.com/Cybernahu/Proyecto-Final
+
+[33mcommit f29d7fc69cbf109596fba64b9ec0180ad32ebcbf[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Tue Jun 2 18:26:16 2020 -0300
+
+    cambios y arreglos del login
+
+[33mcommit 09044297cfb98b716473ac0e5faf344129f04a4d[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Tue Jun 2 15:51:43 2020 -0300
+
+    detalles en home
+    
+    arreglando el footer
+
+[33mcommit 8c0dd5d24fb97e71a57edd01d1cc38e6e91793af[m
+Merge: 0c30a08 092dff3
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Tue Jun 2 15:11:27 2020 -0300
+
+    Merge branch 'master' of https://github.com/Cybernahu/Proyecto-Final
+
+[33mcommit 0c30a084b3cd5c58fa2bb4e85e02fc7418fd88ec[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Tue Jun 2 15:11:17 2020 -0300
+
+    home resuelto
+    
+    home responsive
+
+[33mcommit 092dff30989e5c9749e7a5f5db2c4ebb7825f0c9[m
+Merge: e0a818c cd50a19
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Tue Jun 2 15:04:51 2020 -0300
+
+    Merge branch 'master' of https://github.com/Cybernahu/Proyecto-Final
+
+[33mcommit e0a818c839805b7c2d3502de28768f20131f191c[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Tue Jun 2 15:04:42 2020 -0300
+
+    cambios en el login
+
+[33mcommit cd50a19c34774f16d21263d67ffca694eada7f6d[m
+Merge: 51d228e 7a6512d
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Mon Jun 1 20:43:54 2020 -0300
+
+    Merge branch 'master' of https://github.com/Cybernahu/Proyecto-Final
+
+[33mcommit 51d228e193c61145357316838d6b527b343b9d6c[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Mon Jun 1 20:43:46 2020 -0300
+
+    play lis new
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 7a6512dc181b4a6cdf4f55f1aea32480f31f5406[m
+Merge: 3a00dc9 16b3cb2
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Mon Jun 1 20:14:34 2020 -0300
+
+    Merge branch 'master' of https://github.com/Cybernahu/Proyecto-Final
+
+[33mcommit 3a00dc95b95fb7a9556364fd5295de9907132571[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Mon Jun 1 20:14:30 2020 -0300
+
+    cambios en el login
+
+[33mcommit 16b3cb2280840c158b8231c0518e574bf6be84ba[m
+Merge: 644452d bd5ea01
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Mon Jun 1 20:01:35 2020 -0300
+
+    Merge branch 'master' of https://github.com/Cybernahu/Proyecto-Final
+
+[33mcommit 644452de62fd758092c8847d33270fd604758ce1[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Mon Jun 1 20:01:26 2020 -0300
+
+    arreglo detalles en general
+    
+    arreglamos detalles en general
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit bd5ea01ba4b5897d8143242aba2af05f83b97702[m
+Merge: 92ba3ce b4156e5
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Mon Jun 1 18:15:26 2020 -0300
+
+    Merge branch 'master' of https://github.com/Cybernahu/Proyecto-Final
+
+[33mcommit 92ba3cea7c335a0b053a0db26cfc8ffbdd64ff6e[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Mon Jun 1 18:12:52 2020 -0300
+
+    Login cambios del css
+
+[33mcommit b4156e5ba979551e30fa188d06d8db0aebedb9dd[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Mon Jun 1 18:11:50 2020 -0300
+
+    Update searchplaylist.html
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 14fd49822be05b3dfbf4a8fad4e726550345265d[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Mon Jun 1 17:46:07 2020 -0300
+
+    Update newplaylist.html
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 47b66bb306edc36841d090a2cbb861c97b1b8f08[m
+Merge: 8f8376f 561a0b6
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Mon Jun 1 17:43:29 2020 -0300
+
+    Merge branch 'master' of https://github.com/Cybernahu/Proyecto-Final
+
+[33mcommit 8f8376ffd417227825f0344b20f121f7649832b6[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Mon Jun 1 17:43:03 2020 -0300
+
+    Update newplaylist.html
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 561a0b6244ac61b9a3682de504929227ef1ab17c[m
+Merge: f7ffe89 c2c5efe
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Mon Jun 1 17:28:32 2020 -0300
+
+    arreglo de conflictos
+
+[33mcommit f7ffe8995ca33a9d36eb2cfd0090c070716dff43[m
+Merge: 2591479 d6b2a48
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Mon Jun 1 17:25:38 2020 -0300
+
+    arreglo de conflictos
+
+[33mcommit c2c5efef9b5aa62f913376bc5c4ec0ad480333f1[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Mon Jun 1 17:24:21 2020 -0300
+
+    agregue hoja new play list
+    
+    arreglando detalles
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 259147992a795e00ce1d5eb92782173534c05966[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Mon Jun 1 17:15:57 2020 -0300
+
+    cambios en el search y el home
+
+[33mcommit d6b2a487aec25ca4025c6f1804db67c43a7fbcca[m
+Merge: 318f501 933ac26
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Mon Jun 1 16:42:20 2020 -0300
+
+    detalles
+    
+    detalles de estilos en search
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 318f501ebd2e77b39084e107ea55d6f251a35b5f[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Mon Jun 1 16:27:27 2020 -0300
+
+    arreglando detalles
+    
+    arreglamos estilos
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 933ac2615a0af6a41cdf3ba4d746721a82794e20[m
+Merge: 05567d2 1e43202
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Mon Jun 1 15:34:00 2020 -0300
+
+    arreglo de conflictos
+
+[33mcommit 05567d2d67ed1fd45817a85dee44e23af7dfd83c[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Mon Jun 1 15:07:42 2020 -0300
+
+    cambios en home & search
+
+[33mcommit 1e43202643d4305d2aa46e1b45fb3de2e01b47b3[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Mon Jun 1 15:02:38 2020 -0300
+
+    searcha actulizado
+    
+    actulizamos search
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 5ae40c8a7dfbf5c7edf61c5c271c625feaa49e55[m
+Merge: 41c8f2a 293e660
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Mon Jun 1 14:59:44 2020 -0300
+
+    arreglo conflictos
+
+[33mcommit 41c8f2a8b8813a7c8ce294351c078cef20883887[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Mon Jun 1 14:53:13 2020 -0300
+
+    cambios en search
+    
+    hice cambios en el search
+
+[33mcommit 293e660a5fbca1b6e3e2b2d302d8fb4e79c48519[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Fri May 29 20:15:53 2020 -0300
+
+    lista de fotos casi pronta en el playlist
+
+[33mcommit 46b4ed66309c41fc72edc52d07604dc7257c345c[m
+Merge: 005f6e4 fb7f064
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Fri May 29 19:00:31 2020 -0300
+
+    Merge branch 'master' of https://github.com/Cybernahu/Proyecto-Final
+
+[33mcommit 005f6e45826a1d96a8ffbc89cbefc5537742c2b4[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Fri May 29 19:00:26 2020 -0300
+
+    modificaciones del playlist
+
+[33mcommit fb7f064efdb4676883bc7fb528404fb666dd29b8[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Fri May 29 18:53:43 2020 -0300
+
+    estilos
+    
+    estilos home
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit fde572beac1b1c036988a3f96b46290444acbf94[m
+Merge: 5bcd0b3 139ba49
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Fri May 29 18:49:49 2020 -0300
+
+    Merge branch 'master' of https://github.com/Cybernahu/Proyecto-Final
+
+[33mcommit 5bcd0b3505cfc4895e7e49bd542208e626d0983c[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Fri May 29 18:49:20 2020 -0300
+
+    arreglo responsive
+    
+    pagina responsive
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 139ba49e0134a4b4067728caf0bc15e47c768d43[m
+Merge: 3bbab42 5a1cf01
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Fri May 29 18:34:09 2020 -0300
+
+    Merge branch 'master' of https://github.com/Cybernahu/Proyecto-Final
+
+[33mcommit 3bbab426066a8a971ba88d754ca1e9662515e0fa[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Fri May 29 18:33:59 2020 -0300
+
+    agregue imagenes a su carpeta y cree searchplay
+
+[33mcommit 5a1cf01eb0f98e0ac217da3210022d7f8c12c307[m
+Merge: 052153d 83ff336
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Fri May 29 18:32:04 2020 -0300
+
+    arreglo conflictos
+    
+    estructura home pronta faltan arreglar detalles de estilos
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 052153d8a6aa656230ffb38e4cf72c575f3815ad[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Fri May 29 18:28:08 2020 -0300
+
+    logo spotify
+
+[33mcommit 83ff336ea5055d890d6c1553410ec92743e676ba[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Fri May 29 17:40:50 2020 -0300
+
+    Cambio de input text a Number
+
+[33mcommit 2c9025555878628ced851e8f754e5c4bbe0cbac0[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Fri May 29 16:30:21 2020 -0300
+
+    intento arreglar problemas del register
+
+[33mcommit 77726c55cebd3b659f7cf97e8d727697c8cf2f26[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Fri May 29 15:26:26 2020 -0300
+
+    cambios en input register
+
+[33mcommit 723b65eb90d7c11c4b327850d05ec9bb4b050fce[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Fri May 29 14:53:05 2020 -0300
+
+    avance en el footer del Register
+
+[33mcommit c4e68d3ed75ba491c11fc0ee9f1a3d745c08cfbc[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Thu May 28 18:18:31 2020 -0300
+
+    casi termino login
+
+[33mcommit c8dfdde51fb3a0ae4fe54dd64db5a3f91e40304c[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Thu May 28 17:50:04 2020 -0300
+
+    cambios en el login
+
+[33mcommit bf1247bc398b7e4247b9dbb39cb2f872ce6858c0[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Thu May 28 16:40:40 2020 -0300
+
+    Arreglo de login
+
+[33mcommit f83cd310291426371e5edbe3b2bd03f9a71bb305[m
+Merge: 29f2fa0 ad7cd30
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Thu May 28 16:38:02 2020 -0300
+
+    arreglo del conflicto
+
+[33mcommit 29f2fa0dc283acca60d52294b2ebd0b2f1ee5bc0[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Thu May 28 16:21:06 2020 -0300
+
+    Arreglo del background del hom
+
+[33mcommit ad7cd303bd4a758d8af53f87f037a83ad5713ae7[m
+Merge: 0ff028c 3e88ddd
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Thu May 28 15:57:42 2020 -0300
+
+    Merge branch 'master' of https://github.com/Cybernahu/Proyecto-Final
+
+[33mcommit 0ff028c37952c7a34627b3ab75218c1d12f4a590[m
+Merge: 199d6c3 a0eecb3
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Thu May 28 15:56:53 2020 -0300
+
+     Montserrat font
+    
+    agregue fuente  a login
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 3e88ddd436d94e5e8687e6b933435259bd6bbf67[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Thu May 28 15:56:20 2020 -0300
+
+    muevo imagenes a la carpeta imágenes
+
+[33mcommit 199d6c3b42eeeadc3b3b1b94ef429a6b4907071a[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Thu May 28 15:55:45 2020 -0300
+
+    login
+    
+    <!-- Montserrat font -->  en login
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit a0eecb3180054e22641fcc27364ed56dfee567ad[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Thu May 28 15:52:00 2020 -0300
+
+    Arreglo de conflictos
+
+[33mcommit 8adbdebece8060e2d6833fc43386e3a2d777ce9a[m
+Merge: e0e0c1e 8fedef3
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Thu May 28 15:37:13 2020 -0300
+
+    login
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 8fedef3872530f3f3e0c5259e39719b92f0a347d[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Thu May 28 15:30:45 2020 -0300
+
+    Arreglo de las columnas del register
+
+[33mcommit e0e0c1e29949d9f162303ccda9247132e60c1ee1[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Thu May 28 15:27:51 2020 -0300
+
+    login
+    
+    agregue login
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 3ce65d0126bef72fafed652c076afb777a5c6ca1[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Thu May 28 14:55:16 2020 -0300
+
+    Construccion del register
+
+[33mcommit ea038d91f003da8c316813353370b3f3b425c4b9[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Wed May 27 19:36:34 2020 -0300
+
+    Avance en el register.
+
+[33mcommit 7a6ef9893082cceab47d7745f84faf75565cd32f[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Wed May 27 17:40:49 2020 -0300
+
+    cambios en el home & login.
+
+[33mcommit b150accd457e551f003638c2050ee9e31f901f06[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Wed May 27 17:35:37 2020 -0300
+
+    cambios en el home,login e intento de responsive
+
+[33mcommit 289b260456d58822fb7f9f3e15e0154dd8b60279[m
+Merge: f1442df 78e3a3e
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Tue May 26 18:41:35 2020 -0300
+
+    Merge branch 'master' of https://github.com/Cybernahu/Proyecto-Final
+
+[33mcommit f1442df0821f8ceb005ba41ea45a94c2ff2dfe94[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Tue May 26 18:40:46 2020 -0300
+
+    Arreglo del fondo y modificaciones extra
+
+[33mcommit 78e3a3e614d1f3a69aab7403e4dfc5197dd8d15f[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Tue May 26 17:44:27 2020 -0300
+
+    login.html
+    
+    agregamos segunda pagina login
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 5fa58c4d871022a23d022cdbe27fa5641a52673a[m
+Merge: bb03737 bc5d742
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Tue May 26 17:26:52 2020 -0300
+
+    Merge branch 'master' of https://github.com/Cybernahu/Proyecto-Final
+
+[33mcommit bb037378c1eacc48389f6f1e65f5b0db93e8f4a1[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Tue May 26 17:23:34 2020 -0300
+
+    arreglo del link del logo home
+
+[33mcommit bc5d742fd993547e7423315d4994036fbd30cab6[m
+Merge: 665a97d 23d79b4
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Tue May 26 17:23:31 2020 -0300
+
+    logo
+    
+    logo
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 665a97ddab6ca7b08e564395d4b91bee98824a7c[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Tue May 26 17:17:34 2020 -0300
+
+    cambio imagen
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 23d79b46fe4d6c3b6fbfdd137336533cb338bb03[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Tue May 26 17:11:17 2020 -0300
+
+    Logo matea, cambios y arreglos.
+
+[33mcommit 90d42d6f612a5eef140beac3f167be571a87684a[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Tue May 26 16:57:28 2020 -0300
+
+    cambios en header otra vez
+
+[33mcommit 7fad302fa107e68826cc47de95bdac280fa8e5e9[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Tue May 26 16:57:02 2020 -0300
+
+    cambios en header
+
+[33mcommit b0d15509f271647c1f2e61402a9fd5755819b523[m
+Merge: 943a746 741b217
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Tue May 26 16:37:47 2020 -0300
+
+    Merge branch 'master' of https://github.com/Cybernahu/Proyecto-Final
+
+[33mcommit 741b217edf6c03dbb6e89ee21bbcd43ce4e91538[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Tue May 26 16:36:53 2020 -0300
+
+    imagen
+    
+    nombre de imagen
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 943a7460b54909091a1c87bff6f6c6003dc119ac[m
+Merge: aac3492 a052a28
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Tue May 26 16:36:51 2020 -0300
+
+    Merge branch 'master' of https://github.com/Cybernahu/Proyecto-Final
+
+[33mcommit aac34926f9ed766259fa153ad2fe720081153ef5[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Tue May 26 16:34:40 2020 -0300
+
+    arreglo del logo en header del style
+
+[33mcommit cc309ce97677d6043da52656980c92b2c66cda5e[m
+Merge: 4c055b7 604bf3b
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Tue May 26 16:32:17 2020 -0300
+
+    Tratando de arreglar para hacer pull&push
+
+[33mcommit a052a28acf74f44071bb88069c28c285ec906642[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Tue May 26 16:17:16 2020 -0300
+
+    Estilos
+    
+    agregue bootstrap
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 604bf3b86b70e0c0cfe69052cbb12fcbc94111b2[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Tue May 26 16:05:04 2020 -0300
+
+    imagen
+    
+    agregue img
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 4c055b7e3a02dcfefb1a99b2a19586d1e0f25ec5[m
+Merge: 4020122 7c1b37e
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Tue May 26 16:03:16 2020 -0300
+
+    Arreglé los conflictos
+
+[33mcommit 86c5716c0901aaee58d78b881905cb4c725ec0b1[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Tue May 26 15:48:30 2020 -0300
+
+    cambie home contendio
+    
+    Le agregue comentarios
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 40201224d62d1713e2603ad653cbff01328bf239[m
+Merge: 223d564 dbcce56
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Tue May 26 15:44:27 2020 -0300
+
+    Trato de arreg. header & hacer footer
+
+[33mcommit 7c1b37e5e7bb990c64d0ab5db12c3bc0a1545307[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Tue May 26 15:38:06 2020 -0300
+
+    prueba
+    
+    le puse el contenido del home
+    
+    Co-Authored-By: cybernahu <cybernahu@users.noreply.github.com>
+
+[33mcommit 223d564bad50b320fff97fed8faab74fc98fdd8e[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Tue May 26 15:36:26 2020 -0300
+
+    Header & Footer, comienzo el footer y trato de arreglar el header
+
+[33mcommit dbcce5614739af6e7f2f088f75d85b9ae4d98153[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Tue May 26 15:28:52 2020 -0300
+
+    Revert "pruebo el github"
+    
+    This reverts commit f2f0ac218785f49844b8e1f06c820e2196a4480e.
+
+[33mcommit f2f0ac218785f49844b8e1f06c820e2196a4480e[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Tue May 26 11:58:14 2020 -0300
+
+    pruebo el github
+
+[33mcommit 52d2caaa7f7a22f75b95db1c870937df557b23ac[m
+Author: yessuu <34214516+yessuu@users.noreply.github.com>
+Date:   Mon May 25 19:31:03 2020 -0300
+
+    Create README.md
+
+[33mcommit a157c01557273a48806f88c15eb38cc9a96c661f[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Mon May 25 17:38:34 2020 -0300
+
+    renombre y comienzo del header
+
+[33mcommit ec5936f3eb6d117ccc57302bf9b4ecfa920eadc5[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Mon May 25 16:04:26 2020 -0300
+
+    Primer commit
+
+[33mcommit 96b269986b3a7d79de8f681ef138691e80449b2d[m
+Author: Nahuel <axelbenerozzo12@gmail.com>
+Date:   Sun May 24 17:59:12 2020 -0300
+
+    commit inicial
