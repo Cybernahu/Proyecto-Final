@@ -422,9 +422,19 @@ border: 1px solid rgba(31, 32, 65, 0.25);
 box-sizing: border-box;
 border-radius: 50px;
 }
+.footer-register{
+    background-color:white;
+    position: fixed;
+    height: 80px;
+    bottom: 0;
+    width: 100%;
+}
+
+.img{
+    position: absolute;
 
 
-
+}
 /******* End of Registration page *******/
 
 .center{
