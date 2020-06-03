@@ -1,12 +1,17 @@
 /******HOME******/
-.titulo{
+
+/******comienzo titulo HOME******/
+.titulo-home{
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: 800;
-	font-size: 36px;
+	font-size: 46px;
 	line-height: 61px;
 	color: white;}
+/******fin titulo HOME******/
 
+
+/******comienzo search HOME******/
 .has-search .form-control {
     padding-left: 2.375rem;
     /*position: absolute;
@@ -25,57 +30,10 @@
 	box-sizing: border-box;
 	border-radius: 33px;
 }
-
-
-/********* Header *********/
-
-
-.header-home-signin{
-    position: absolute;
-    width: 150px;
-    height: 30px;
-    left: 957px;
-    top: 28px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 24px;
-    color: #ffffff;
-}
-.header-home-signup{
-    position: absolute;
-    width: 138px;
-    height: 30px;
-    left: 789px;
-    top: 28px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    color: #ffffff;
-}
-.header-home__h4{
-    position: absolute;
-    width: 183px;
-    height: 64px;
-    left: 114px;
-    top: 0px;
-
-    font-family: 'Righteous';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 40px;
-    color: white;
-    background: #000000;
-}
-/*********End of Header*********/
+/******fin de search HOME******/
 
 /**** Aqui el contenido del home****/
-.main {
+.main-home{
     width: 100%;
 
     margin: 50px auto;
@@ -84,23 +42,6 @@
 }
 .bg-black{
     background-color: black;
-}
-
-
-
-.text__titulo{
-	position: absolute;
-    width: 797px;
-    height: 30px;
-    left: 177px;
-    top: 83px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 50px;
-    line-height: 61px;
-    color: #FFFFFF;
 }
 
 
@@ -162,8 +103,8 @@
     font-family: 'Righteous';
     font-style: normal;
     font-weight: normal;
-    font-size: px;
-    line-height: px;
+    font-size:28px;
+    line-height:45px;
     
     color: #FFFFFF;
     
@@ -178,16 +119,6 @@
 
 }
 
-.titulo__home{
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 50px;
-    line-height: 61px;
-    
-    color: #FFFFFF;
-}
 .boton_musica{
 	padding-left: 2.375rem;
 	padding-right: 2.375rem;
@@ -198,7 +129,7 @@
 	height: auto;
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
-	font-size: 20px;
+	font-size: 25px;
 	color: white;
 
 	background: #1ED760;
@@ -208,61 +139,34 @@
 
 
 /******* Footer Home ********/
-
+.footer-titulo{
+    padding: 6px;
+    font-size: 15px;
+}
 .logo__spotify{
 
-    width: 50px;
-    height: 40px;
+    width: 40px;
+    height: 30px;
     left: 986px;
     top: 622px;
 }
 .copyright-text{
-    position: absolute;
-    font-style: normal;
-    font-family: 'Montserrat';
-    font-size: 18px;
-    font-weight: normal;
-    line-height: 24px;
-    
     color: #FFFFFF;
 
 }
-h6{
-    
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    font-family: 'Montserrat';
-    color: #FFFFFF;
 
-}
 footer {background-color:black;
     position: fixed;
     height: 80px;
     bottom: 0;
     width: 100%;
 }
-.copyright-text{
-    align-self: flex-end;
-    align-items: flex-end;
-    justify-content: flex-end;
-    align-content: flex-end;
-    
-}
-.footer-home-text{
-    right: 5.5%;
-    position: fixed;
-}
-.footer-home__h6{
-    position: fixed;
-    bottom: 6%;
-    left: 0.5%;
-}
+
 
 /*********** End of Footer home ***********/
 
 
+/********* FIN DE  HOME**********/
 
 
 /********* COMIENZO REGISTRO **********/
