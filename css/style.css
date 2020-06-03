@@ -345,6 +345,10 @@ i {
     color: rgba(31, 32, 65, 0.25);
 }
 .input-group .form-control:not(:first-child) { border-radius: 33px;}
+.text_logoo{
+margin-left: 80%;
+
+}
 
 .form-control{
  
@@ -558,6 +562,24 @@ border-radius: 50px;
     font-size: 18px;
     line-height: 22px;
 
+    color: #000000;
+}
+
+.mateify-text-login::after{
+    content: "Mateify";
+    position: absolute;
+    width: 183px;
+    height: auto;
+    top: 19px;
+    margin-left: 45%;
+    margin-right: 30%;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    
     color: #000000;
 }
 .mateify-text-login{
