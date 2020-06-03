@@ -1094,4 +1094,59 @@ i {
 .borderless{
     border: none;
 }
+.voted-first__h2{
+    position: absolute;
+
+    width: 311px;
+    height: 30px;
+    left: 41%;
+    top: 11%;
+    margin-bottom: 39px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 46px;
+
+    color: #FFFFFF;
+}
+.voted-show_more{
+    display: block;
+    position: absolute;
+
+    height: 22.09px;
+    left: 45.33%;
+    right: 47.72%;
+    top: calc(50% - 22.09px/2 + 212.98px);
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+
+    color: #FFFFFF;
+}
+.voted-first__h6{
+    position: absolute;
+
+    width: 714px;
+    height: 30px;
+    left: 21%;
+    top: 18%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+.table-voted-position{
+    position: absolute;
+    left: 14%;
+    top: 24%;
+}
 /******* Fin de Barra de Busqueda del Search *******/

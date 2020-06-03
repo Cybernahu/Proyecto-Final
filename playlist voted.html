@@ -18,69 +18,51 @@
     <title>Document</title>
 </head>
 <body style="background-color: black;"></body>
-    <div class="container">
-
-        <nav class="navbar navbar-expand-lg py-3 navbar-dark  shadow-sm ">
-
-            <a href="#" class="navbar-brand">
-                <!-- Logo Image -->
-                <img src="../imágenes/LogoSoloBlancoFondoTransparente1.png" width="45" alt="" class="logo__matefy">
-                <!-- Logo Text -->
-                <span>
-                    <div class="text_logo">Matefy</div>
-                </span>
-            </a>
-
-            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-                class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
-
-            <div id="navbarSupportedContent" class="collapse navbar-collapse">
-
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="register.html" class="nav-link"> Registrarse </a></li>
-                    <li class="nav-item active"><a href="login.html" class="nav-link"> Usuario<span
-                                class="sr-only">(current)</span></a></li>
-
-                </ul>
-
-
-        </nav>
-    </div>
-
-
-    <div class="container">
-        <hr color="white" size="3">
-        <nav class="navbar navbar-expand-lg py-3 navbar-dark  shadow-sm ">
-            <ul class="navbar-nav ml-auto">
-                
-                <li class="nav-item active">
-                    <a href="login.html" class="nav-link">
-                        Diseñado en Uruguay
-                        <span class="sr-only">
-                            (current)
-                        </span>
-                    </a>
-                </li>
-                
-            </ul>
-
-        
-            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
-        
-            <div id="navbarSupportedContent" class="collapse navbar-collapse">
-            
-            <ul class="navbar-nav ml-auto">
     
-                <li class="nav-item active"><img src="../imágenes/spotify_logo.png" width="80px" height="50px" class="nav-link"><span class="sr-only">(current)</span></li>
-            </ul>
-        </nav>
-        </div>        
+
+<div class="container">
+    <header>
         
-    
+    <nav class="navbar navbar-expand-lg py-3 navbar-dark  shadow-sm ">
+        <a href="home-header.html" class="navbar-brand">
+
+            <!-- Logo Image -->
+            <img src="imágenes/LogoSoloBlancoFondoTransparente1.png" width="45" alt="" class="logo__matefy">
+
+            <!-- Logo Text -->
+            <span>
+                <div class="text_logo">Matefy</div>
+            </span>
+        </a>
+        <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+            class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a href="login.html" class="nav-link"> Usuario<span
+                            class="sr-only">(current)</span></a></li>
+            </ul>
+            </nav>
+    </header>
+</div>
+
         <div class="container">
-            <h2 class="sub-header">Canciones populares en tu zona</h2>
-            
+            <h2 class="voted-first__h2">
+                Full Reggaetón
+            </h2>
+            <h6 class="voted-first__h6">
+                Vota las canciones para cambiar el orden en que se reproducen
+            </h6>
+            <a class="voted-show_more" href="#">
+                Show More
+            </a>
+        </div>
+
+        <div class="container table-voted-position">
+            <h2 class="sub-header">
+                Resultados
+            </h2>
             <div class="row">
                 <div class="col-sm-offset-3 col-sm-4 col-md-12 col-6">
                 
@@ -92,7 +74,7 @@
                                 <th>Titulo</th>
                                 <th>Autor</th>
                                 <th>Votos</th>
-                                <th>Duracion</th>
+                                <th>Duración</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -133,6 +115,16 @@
                         </tbody>
                     </table>
     
+                    <!--Footer-->
+                    <footer class="footer">
+                        <div class="container">
+                            <span>
+                                <h6 class="footer-titulo">Diseñado en Uruguay</h6>
+                            </span>
+                            <p class="copyright-text">Powered by<img src="imágenes/spotify_logo.png" width="30px" alt=""class="logo__spotify">
+                        </div>
+                    </footer>
+                
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
