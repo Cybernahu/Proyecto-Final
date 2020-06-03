@@ -443,15 +443,17 @@ color: #FFFFFF;}
             line-height: 22px;
 }
 .button-fin{
+    position: absolute;
     width: 204px;
     height: 38px;
-    left: 470px;
-    top: 824px;
+    left: 47%;
+    top: 82%;
     
     background: #FFFFFF;
     border: 2px solid #000000;
     box-sizing: border-box;
     border-radius: 42px;
+    
     
 }
 [type=button], [type=reset], [type=submit], button{
@@ -460,7 +462,7 @@ height: 16px;
 left: 515px;
 top: 834px;
 
-font-family: Montserrat;
+font-family: 'Montserrat';
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -511,7 +513,21 @@ top: 490px;
     border-radius: 50px;
 }
 
+.form-title{
+    position: absolute;
+width: 342px;
+height: 16px;
+left: 40%;
+top: 11%;
 
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+}
 .selectdos{
 
 
@@ -552,7 +568,7 @@ border-radius: 50px;
 
 
 }
-/*********************************************End of Registration page ***********************************************/
+/******************************End of Registration page ***********************************************/
 
 .center{
     text-align: center;
@@ -1061,7 +1077,7 @@ i {
     right: 43.95%;
     top: calc(50% - 22.09px/2 + 7.33px);
     
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
