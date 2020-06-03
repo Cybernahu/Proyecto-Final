@@ -18,7 +18,7 @@
     
 	height: 57px;*/
 
-	margin: 70px auto;
+	margin:  auto;
 	width: 100%;
 	max-width: 738px;
 	height: 57px;
@@ -36,7 +36,7 @@
 .main-home{
     width: 100%;
 
-    margin: 50px auto;
+    margin:auto;
     align-items: center;
     text-align: center;
 }
@@ -166,7 +166,166 @@ footer {background-color:black;
 /*********** End of Footer home ***********/
 
 
-/********* FIN DE  HOME**********/
+/********* *************************FIN DE  HOME***********************************************************/
+
+
+
+/********************************************NEW PLAY LIST*****************************************************************************/
+ 
+.table-sm td, .table-sm th {
+    padding: .6rem;
+}
+
+.titulo-header{
+    text-align: center;
+  font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 46px;
+    
+    color: #FFFFFF;
+    
+}
+
+.form-group .has-search{
+    padding-left: 2.375rem;
+    /*position: absolute;
+    
+    width: 100%;
+	max-width: 738px;
+	height: 57px;
+
+	background: #FFFFFF;
+	/* Dark 25% */
+
+	border: 1px solid rgba(31, 32, 65, 0.25);
+	box-sizing: border-box;
+	border-radius: 33px;
+}
+
+
+.table{
+    height: 22.09px;
+    left: 31.36%;
+    right: 57.38%;
+    top: calc(50% - 22.09px/2 + 115.03px);
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    
+/* or 133% */
+
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.numeraluno{
+   
+    border-radius: 3px;
+
+width: 858px;
+height: 51px;
+left: 134px;
+top: 327px;
+
+}
+
+.number-1 {
+    background: #282828;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+
+width: 858px;
+height: 51px;
+left: 134px;
+top: 327px;
+
+}
+.number-2{
+    width: 858px;
+    height: 57px;
+    left: 132px;
+    top: 431px;
+}
+.number-3{
+    background: #282828;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    width: 858px;
+height: 57px;
+left: 132px;
+top: 431px;}
+
+.text-table{
+  
+height: 22.09px;
+left: 31.36%;
+right: 61.09%;
+top: calc(50% - 22.09px/2 + 7.33px);
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* or 133% */
+
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.5;
+} 
+
+
+
+.sub-header{
+    left: 11.46%;
+    right: 68.66%;
+    top: calc(50% - 30px/2 - 84px);
+    height: 30px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Source Sans Pro';
+/* or 137% */
+    color: #FFFFFF;
+}
+
+
+
+i{
+
+    font-family:'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 26px;
+    /* or 64% */
+    
+    
+    color:white;
+    
+    mix-blend-mode: normal;  
+}
+i {
+    border-radius: 100%;
+    
+    background: #1ED760;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    
+}
+
+
+
+  
+/****************************************************** FIN DE NEW PLAY****************************************** **********/
 
 
 /********* COMIENZO REGISTRO **********/
@@ -339,7 +498,7 @@ border-radius: 50px;
 
 
 }
-/******* End of Registration page *******/
+/*********************************************End of Registration page ***********************************************/
 
 .center{
     text-align: center;
@@ -492,6 +651,8 @@ border-radius: 50px;
 .login-form-check-label{
     margin-left: 20px;
 }
+
+
 /********** End of Login page**********/
 /************** Start Register-Footer ************/
 h6{
@@ -682,159 +843,3 @@ h6{
 }
 
 /******* Fin de Barra de Busqueda del Search *******/
-
-/**********new play list***********/
-.titulo-header{
-    text-align: center;
-    position: absolute;
-    width: 292px;
-    height: 30px;
-    left: 430px;
-    top: 109px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 46px;
-    
-    color: #FFFFFF;
-    
-}
-.number_1{position: absolute;
-    width: 858px;
-    height: 51px;
-    left: 134px;
-    top: 327px;
-    
-    background: #282828;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 3px
-
-}
-.table{
-    height: 22.09px;
-    left: 31.36%;
-    right: 57.38%;
-    top: calc(50% - 22.09px/2 + 115.03px);
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    
-/* or 133% */
-
-    color: #FFFFFF;
-    mix-blend-mode: normal;
-    opacity: 0.5;
-}
-
-.number-1 {
-    background: #282828;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
-
-width: 858px;
-height: 51px;
-left: 134px;
-top: 327px;
-
-}
-.number-2{
-    width: 858px;
-    height: 57px;
-    left: 132px;
-    top: 431px;
-}
-.number-3{
-    background: #282828;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
-    width: 858px;
-height: 57px;
-left: 132px;
-top: 431px;}
-
-.text-table{
-  
-height: 22.09px;
-left: 31.36%;
-right: 61.09%;
-top: calc(50% - 22.09px/2 + 7.33px);
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 16px;
-/* or 133% */
-
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-opacity: 0.5;
-} 
-
-
-
-.sub-header{
-    left: 11.46%;
-    right: 68.66%;
-    top: calc(50% - 30px/2 - 84px);
-    height: 30px;
-
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 22px;
-    font-family: 'Source Sans Pro';
-/* or 137% */
-    color: #FFFFFF;
-}
-
-
-
-i{
-
-    font-family:'Montserrat';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 26px;
-    /* or 64% */
-    
-    
-    color:white;
-    
-    mix-blend-mode: normal;  
-}
-i {
-    border-radius: 100%;
-    
-    background: #1ED760;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-    
-}
-.bangla{
-
-    height: 22.09px;
-    left: 48.38%;
-    right: 43.95%;
-    top: calc(50% - 22.09px/2 + 7.33px);
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    /* or 133% */
-    
-    
-    color: #FFFFFF;
-    
-    mix-blend-mode: normal;
-    opacity: 0.5;
-}
