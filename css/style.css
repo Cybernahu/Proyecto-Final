@@ -328,6 +328,56 @@ i {
 /****************************************************** FIN DE NEW PLAY****************************************** **********/
 
 
+/****************************************************** COMIENZO SEARCH PLAY LIST****************************************** **********/
+
+    button.btn.btn-success{
+        width: 213px;
+        height: 43px;
+        left: 889px;
+        top: 125px;
+        
+        background: #1ED760;
+        border-radius: 42px;
+}
+
+.btn.btn-success{
+    width: 169px;
+height: 19px;
+left: 916px;
+top: 136px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+.input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child){
+border-top-right-radius: 33px; 
+    border-bottom-right-radius: 33px;
+    padding: 20px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************************************FIN SEARCH PLAY LIST****************************************** **********/
+
+
 /********* COMIENZO REGISTRO **********/
 .row{
     justify-content: center;
