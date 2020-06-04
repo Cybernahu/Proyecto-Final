@@ -442,9 +442,7 @@ border-radius: 42px;
 
 }
 .btn-primary{
-
-
-left: 515px;
+left: 51%;
 
 
 font-family: 'Montserrat';
@@ -462,7 +460,7 @@ color: #FFFFFF;}
             font-size: 18px;
             line-height: 22px;
 }
-.button-fin{
+.button-final{
     position: absolute;
     width: 204px;
     height: 38px;
@@ -473,8 +471,7 @@ color: #FFFFFF;}
     border: 2px solid #000000;
     box-sizing: border-box;
     border-radius: 42px;
-    
-    
+
 }
 [type=button], [type=reset], [type=submit], button{
     width: 123px;
