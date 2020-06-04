@@ -379,6 +379,26 @@ border-top-right-radius: 33px;
 
 
 /********* COMIENZO REGISTRO **********/
+
+
+
+.wrapper-fostrap {
+    display: table;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container-fostrap {
+    display: table-cell;
+    padding: 1em;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .fostrap-logo {
+    width: 45px;
+    margin-bottom:15px
+  }
+ 
 .row{
     justify-content: center;
     margin-left: 0px;
